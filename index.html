@@ -11,6 +11,13 @@
     <!--tooltip -->
 
 
+    <!--Прокрутка страницы-->
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="./css/buttons.css">
+
+    <!--Прокрутка страницы-->
+
+
     <link type="text/css" rel="stylesheet" href="./css/mypage.css"/>
     <link type="text/css" rel="stylesheet" href="./css/pb.css"/>
     <!--[if lt IE 9]>
@@ -191,7 +198,7 @@
 
         <div class="central"><h2>ОПЫТ</h2></div>
 
-      
+
         <div class="experience">
             <p>
                 Верстка сайтов / JavaScript разработка
@@ -255,13 +262,147 @@
 <div class="clear"></div>
 <div class="margin"></div>
 
+<div class="contact">
+    <div class="content">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+
+            <tr>
+                <td height="26" style="line-height: 26px"></td>
+            </tr>
+            <tr>
+                <td align="center" valign="top"
+                    style="font-family: Georgia, serif; mso-line-height-rule: exactly; line-height: 26px; font-weight: 400; color: #333333;">
+                   <h2>Контакты</h2>
+                </td>
+            </tr>
+            <tr>
+                <td height="12" style="line-height: 12px"></td>
+            </tr>
+            <tr>
+                <td align="center" valign="top"
+                    style="font-family: Georgia, serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400; color: #777777;">
+                    Адрес: Бишкек ул. Коммунаров д.112
+                </td>
+            </tr>
+            <tr>
+                <td height="8" style="line-height: 8px"></td>
+            </tr>
+
+            <tr>
+                <td align="center" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                        <tr>
+                            <td align="left" valign="top" style="line-height: 0 !important; padding: 0 9px 0 0;"><img
+                                    src="./img/icon-phone.png" alt="icon-phone" width="13" height="22"></td>
+                            <td align="left" valign="top"
+                                style="font-family: Georgia, serif; font-size: 17px; mso-line-height-rule: exactly; line-height: 18px; font-weight: 400; font-style: italic; color: #26ac7c;">
+                               (+996)777-999-029
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="9" style="line-height: 9px"></td>
+            </tr>
+
+            <tr>
+                <td align="center" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                        <tr>
+                            <td align="left" valign="top" style="line-height: 0 !important; padding: 0 9px 0 0;"><img
+                                    src="./img/icon-mail.png" alt="icon-mail" width="20" height="16"></td>
+                            <td align="left" valign="top"
+                                style="font-family: Georgia, serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 17px; font-weight: 400; color: #777777;">
+                                Email: <a href="index.html" style="color: #333333;">gordondalos@gmail.com</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="20" style="line-height: 20px"></td>
+            </tr>
+
+            <tr>
+                <td align="center" valign="top">
+
+                    <table border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                        <tr>
+                            <td align="center" valign="top" style="line-height: 0 !important; padding: 0 3px;">
+                                <a href="index.html"><img src="./img/socials-1.png" alt="socials-1" width="51"
+                                                          height="51"></a>
+                            </td>
+                            <td align="center" valign="top" style="line-height: 0 !important; padding: 0 3px;">
+                                <a href="index.html"><img src="./img/socials-2.png" alt="socials-2" width="51"
+                                                          height="51"></a>
+                            </td>
+                            <td align="center" valign="top" style="line-height: 0 !important; padding: 0 3px;">
+                                <a href="index.html"><img src="./img//socials-3.png" alt="socials-3" width="51"
+                                                          height="51"></a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
 <footer>
 
 </footer>
 
+<p id="back-top">
+    <a href="#top"><span></span></a>
+</p>
+
+<!-- Тултипы -->
 <script>
     $(document).ready(function () {
         $('.tooltip').tooltipster();
+    });
+</script>
+
+
+<!--Прокрутка тсраницы-->
+<script>
+    $(document).ready(function(){
+
+        // hide #back-top first
+        $("#back-top").hide();
+
+        // fade in #back-top
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#back-top').fadeIn();
+                } else {
+                    $('#back-top').fadeOut();
+                }
+            });
+
+            // scroll body to 0px on click
+            $('#back-top a').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+
     });
 </script>
 

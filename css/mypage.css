@@ -25,7 +25,7 @@ header {
     background-repeat: repeat-x;
     min-height: 20em;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 90px;
 
 
 }
@@ -48,7 +48,7 @@ p.justifya{
 .lamp{
     background-image: url('../img/lamp.jpg');
     width: 100%;
-    min-height: 700px;
+    min-height: 40em;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -173,17 +173,17 @@ p.justifya{
 .green:before {
     content: "";
     position: absolute;
-    width: 200%;
-    height: 200%;
+    width: 150%;
+    height: 150%;
     top: -50%;
     left: -50%;
     z-index: -1;
     background: url(../img/bg2.jpg) 0 0 repeat;
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    transform: rotate(5deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
 }
 
 .green h3{
@@ -280,7 +280,7 @@ p.justifya{
     }
     .lamp{
         background: none;
-        height: auto;
+        min-height: 10em;
     }
     .block{
         width: 50%;
@@ -294,6 +294,7 @@ p.justifya{
     }
     .lamp{
         background: none;
+        min-height: 10em;
 
     }
     .block{
@@ -310,7 +311,8 @@ p.justifya{
     }
     .lamp{
         background: none;
-        height: auto;
+        min-height: 10em;
+
     }
     .block{
         width: 100%;
