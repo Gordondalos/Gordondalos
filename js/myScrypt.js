@@ -49,9 +49,9 @@ $(document).ready(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-100;
         if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 1100); //1100 - скорость
+            $('body').animate({ scrollTop: destination }, 5000); //1100 - скорость
         } else {
-            $('html').animate({ scrollTop: destination }, 1100);
+            $('html').animate({ scrollTop: destination }, 5100);
         }
         return false;
     });
