@@ -51,8 +51,10 @@ p.justifya{
     background-image: url('../img/lamp.jpg');
     width: 100%;
     min-height: 40em;
-    background-size: 100%;
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .myfoto{
@@ -162,8 +164,6 @@ p.justifya{
     margin: auto;
     overflow: hidden;
     position: relative;
-
-
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -394,6 +394,15 @@ footer{
     header .content{
         min-height: 650px;
     }
+    .paralax{
+
+    }
+
+    .heder_text{
+        position: absolute;
+        margin-top:-230px !important;
+        top:0%;
+    }
 
 
 
@@ -411,6 +420,7 @@ footer{
     .block{
         width: 100%;
     }
+
 
 }
 

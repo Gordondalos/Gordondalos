@@ -28,6 +28,7 @@
 
     <link type="text/css" rel="stylesheet" href="./css/mypage.css"/>
     <link type="text/css" rel="stylesheet" href="./css/pb.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/paralax.css"/>
 
 
 
@@ -46,6 +47,13 @@
 
 </head>
 <body>
+
+<!--Эфекты паралакса-->
+
+
+
+
+<!--Эфекты паралакса-->
 <header>
     <div class="content">
         <div id="menu" class="default menu wow bounceInLeft">
@@ -62,12 +70,25 @@
     <div class="clear"></div>
     <div class="margin"></div>
 
-    <div class="myfoto wow bounceInRight" data-wow-offset="500">
-        <div class="circle">
 
-        </div>
+    <section class="paralax">
 
-    </div>
+            <div class="heder_text">
+
+                <div class="myfoto wow bounceInRight">
+                    <div class="circle">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+    </section>
+
+
+
     <div  class="central fio">
         <h1>Евгeний Бондаренко</h1>
     </div>
@@ -388,9 +409,12 @@
     </div>
 </div>
 
+
+
+
 <footer>
     <div class="margin"></div>
-
+<!--плюсо-->
     <script type="text/javascript">(function() {
         if (window.pluso)if (typeof window.pluso.start == "function") return;
         if (window.ifpluso==undefined) { window.ifpluso = 1;
@@ -401,7 +425,7 @@
             h.appendChild(s);
         }})();</script>
     <div style="margin: auto; display: block; max-width: 700px;" class="pluso" data-background="transparent" data-options="medium,round,multiline,horizontal,counter,theme=04" data-services="vkontakte,pinterest,friendfeed,misterwong,webmoney,yazakladki,yandex,bobrdobr,moemesto,moikrug,bookmark,webdiscover,vkrugu,myspace,yahoo,tumblr,readability,surfingbird,stumbleupon,odnoklassniki,springpad,facebook,pinme,twitter,google,moimir,memori,email,blogger,print,juick,digg,evernote,formspring,delicious,googlebookmark,instapaper,livejournal,liveinternet,linkedin"></div>
-
+    <!--плюсо-->
 
 </footer>
 
@@ -409,7 +433,7 @@
     <a href="#top"><span></span></a>
 </p>
 
-
+<script src="./js/common.js"></script>
 
 <script type="text/javascript" src="./js/wow.min.js"></script>
 
@@ -463,7 +487,7 @@
             $('#back-top a').click(function () {
                 $('body,html').animate({
                     scrollTop: 0
-                }, 800);
+                }, 5000);
                 return false;
             });
         });
