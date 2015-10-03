@@ -48,7 +48,7 @@ p.justifya{
 }
 
 .lamp{
-    background-image: url('../img/lamp.jpg');
+    background-image: url('../img/lamp.JPG');
     width: 100%;
     min-height: 40em;
     background-size: 100%;
@@ -58,7 +58,7 @@ p.justifya{
 .myfoto{
     /*background-color: rgb(149,193,31);*/
     background-color: rgb(40,173,126);
-    background-image: url('../img/bg1.jpg');
+    background-image: url('../img/bg1.JPG');
     background-size: 100%;
     background-position: center;
     max-width: 400px;
@@ -72,7 +72,7 @@ p.justifya{
     width: 150px;
     height: 150px;
     background: white;
-    background-image: url('../img/1.jpg');
+    background-image: url('../img/1.JPG');
     background-size: 150px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -84,7 +84,7 @@ p.justifya{
     width: 150px;
     height: 150px;
     background: white;
-    background-image: url('../img/2.jpg');
+    background-image: url('../img/2.JPG');
     background-size: 150px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -96,7 +96,7 @@ p.justifya{
     width: 150px;
     height: 150px;
     background: white;
-    background-image: url('../img/3.jpg');
+    background-image: url('../img/3.JPG');
     background-size: 150px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -108,7 +108,7 @@ p.justifya{
     width: 150px;
     height: 150px;
     background: white;
-    background-image: url('../img/2.jpg');
+    background-image: url('../img/2.JPG');
     background-size: 150px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -121,7 +121,7 @@ p.justifya{
     width: 150px;
     height: 150px;
     background: white;
-    background-image: url('../img/1.jpg');
+    background-image: url('../img/1.JPG');
     background-size: 150px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
