@@ -16,6 +16,8 @@ h2{
 body{
     font-family: Georgia, serif;
 color: #333333;
+    overflow-x:hidden;
+
 
 }
 
@@ -136,7 +138,7 @@ p.justifya{
     width: 100%;
     height: 100px;
     position: relative;
-    background-color: grey;
+    background-color: rgb(40,173,126);
 }
 .central{
     max-width: 400px;
@@ -211,7 +213,7 @@ p.justifya{
 .content{
     max-width: 1024px;
     min-width: 181px;
-    min-height: 400px;
+
     margin: auto;
 
     
@@ -256,6 +258,78 @@ p.justifya{
 
 }
 
+header .content {
+    max-height: 200px;
+}
+
+/*Меню*/
+
+/*меню для прокрутки*/
+#menu.default {
+    position:relative;
+}
+#menu.fixed {
+    position:fixed;
+    margin: auto;
+    width:100%;
+    top:0;
+    opacity: 0.7;
+    z-index: 10000;
+}
+
+#menu.fixed:hover {
+    opacity: 1;
+}
+
+
+
+/*меню для прокрутки*/
+
+
+
+.menu{
+    max-width: 1000px;
+    min-width: 600px;
+
+}
+
+.menu ul {
+    display: table-row;
+}
+
+.menu ul li {
+    display: table-cell;
+    list-style-type: none;
+    vertical-align: bottom;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(40,173,126);
+
+
+}
+.menu ul li a{
+    color: white;
+    display: table-cell;
+    width: 1000px;
+    text-transform: uppercase;
+    font: 20px bold Verdana ;
+    text-decoration: none;
+    height: 50px;
+    vertical-align: middle;
+}
+
+
+/*Меню*/
+
+
+
+footer{
+    background-color: rgb(40,173,126);
+    width: 100%;
+    min-height: 500px;
+}
+
+
 
 
 @media (max-width:1000px ) {
@@ -285,6 +359,43 @@ p.justifya{
     .block{
         width: 50%;
     }
+
+    .menu {
+
+        height: 100px;
+        min-width: 250px;
+        min-height: 650px;
+        margin: auto;
+    }
+
+    #menu{
+        position: relative !important;
+    }
+
+    .pluso{
+
+    }
+
+
+    .menu ul li{
+        display: table-row;
+        height: 100px;
+        border: 1px solid white;
+        min-width: 200px;
+
+    }
+    .menu ul li a{
+
+        height: 100px;
+        border: 1px solid white;
+        min-width: 200px;
+    }
+
+    header .content{
+        min-height: 650px;
+    }
+
+
 
 
 }
@@ -320,6 +431,7 @@ p.justifya{
 
 
 }
+
 
 
 
