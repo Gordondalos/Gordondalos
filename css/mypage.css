@@ -48,7 +48,7 @@ p.justifya{
 }
 
 .lamp{
-    background-image: url('../img/lamp.JPG');
+    background-image: url('../img/lamp.jpg');
     width: 100%;
     min-height: 40em;
     background-size: 100%;
@@ -58,7 +58,7 @@ p.justifya{
 .myfoto{
     /*background-color: rgb(149,193,31);*/
     background-color: rgb(40,173,126);
-    background-image: url('../img/bg1.JPG');
+    background-image: url('../img/bg1.jpg');
     background-size: 100%;
     background-position: center;
     max-width: 400px;
