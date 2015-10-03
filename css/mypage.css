@@ -15,7 +15,7 @@ h2{
 
 body{
     font-family: Georgia, serif;
-color: #333333;
+color: black;
     overflow-x:hidden;
 
 
@@ -51,6 +51,7 @@ p.justifya{
     background-image: url('../img/lamp.jpg');
     width: 100%;
     min-height: 40em;
+    padding-top: 20px;
      background-repeat: no-repeat;
     position: relative;
     -webkit-background-size: cover;
@@ -59,8 +60,9 @@ p.justifya{
 
 .myfoto{
     /*background-color: rgb(149,193,31);*/
-    background-color: rgb(40,173,126);
-    background-image: url('../img/bg1.jpg');
+    /*background-image: url('../img/bg1.jpg');*/
+    background-color: #fff;
+ border-radius: 6px;
     background-size: 100%;
     background-position: center;
     max-width: 400px;
@@ -72,6 +74,7 @@ p.justifya{
 }
 .circle{
     width: 150px;
+    opacity: 1;
     height: 150px;
     background: white;
     background-image: url('../img/1.JPG');
@@ -223,6 +226,7 @@ p.justifya{
 .one_white, .two_white{
     width: 50%;
     position: relative;
+    color: white;
     float:left;
     min-height: 150px;
     min-width:180px;
@@ -231,6 +235,9 @@ p.justifya{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
+}
+.skill .content .central{
+    color: white;
 }
 
 .experience{
@@ -336,6 +343,16 @@ footer{
     .one, .two, .three, .four{
         width: 50%;
     }
+    .paralaximg{
+        display: none !important;
+    }
+
+    .one_white, .two_white{
+        color: black;
+    }
+    .skill .content .central {
+        color: black; !important;
+    }
 }
 
 
@@ -344,6 +361,8 @@ footer{
     .block{
         width: 50%;
     }
+
+
 }
 
 @media (max-width:730px ) {

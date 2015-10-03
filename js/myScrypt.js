@@ -5,9 +5,9 @@ $(document).ready(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-100;
         if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 3100); //1100 - скорость
+            $('body').animate({ scrollTop: destination }, 5000); //1100 - скорость
         } else {
-            $('html').animate({ scrollTop: destination }, 3100);
+            $('html').animate({ scrollTop: destination }, 5000);
         }
         return false;
     });
@@ -16,9 +16,9 @@ $(document).ready(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-100;
         if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 3100); //1100 - скорость
+            $('body').animate({ scrollTop: destination }, 5000); //1100 - скорость
         } else {
-            $('html').animate({ scrollTop: destination }, 3100);
+            $('html').animate({ scrollTop: destination }, 5000);
         }
         return false;
     });
@@ -27,9 +27,9 @@ $(document).ready(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-100;
         if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 3100); //1100 - скорость
+            $('body').animate({ scrollTop: destination }, 5000); //1100 - скорость
         } else {
-            $('html').animate({ scrollTop: destination }, 3100);
+            $('html').animate({ scrollTop: destination }, 5000);
         }
         return false;
     });
@@ -38,9 +38,9 @@ $(document).ready(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-100;
         if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 3100); //1100 - скорость
+            $('body').animate({ scrollTop: destination }, 5000); //1100 - скорость
         } else {
-            $('html').animate({ scrollTop: destination }, 3100);
+            $('html').animate({ scrollTop: destination }, 5000);
         }
         return false;
     });
@@ -60,9 +60,9 @@ $(document).ready(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-100;
         if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 3100); //1100 - скорость
+            $('body').animate({ scrollTop: destination }, 10000); //1100 - скорость
         } else {
-            $('html').animate({ scrollTop: destination }, 3100);
+            $('html').animate({ scrollTop: destination }, 10000);
         }
         return false;
     });
