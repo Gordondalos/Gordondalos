@@ -1,0 +1,126 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+
+//
+//.trans
+//	-webkit-transition: all .5s ease
+//	time-moz-transition: all .5s ease
+//	time-ms-transition: all .5s ease
+//	time-o-transition: all .5s ease
+//	timetransition: all .5s ease time
+
+
+@media only screen and (max-width : 1200px)
+	.main-mnu
+		display: none
+		min-width: 295px
+		float: right
+		background-color: #1c242c
+		margin-top: 20px
+
+		ul
+
+			li
+				display: block
+				line-height: 0
+				padding: 0
+				a
+					background-color: transparent
+					display: block
+					text-align: right
+					line-height: 48px
+					padding: 0 20px
+					font-size: em(18px)
+					-webkit-transition: all .5s ease
+					time-moz-transition: all .5s ease
+					time-ms-transition: all .5s ease
+					time-o-transition: all .5s ease
+					timetransition: all .5s ease time
+					&:hover
+						background-color: #273646
+
+
+
+	.phone
+		padding-right: 65px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.phone-wrap
+		.phone
+			font-size: em(18px)
+			line-height: 34px
+			padding-right: 50px
+		.toggle-mnu
+			line-height: 34px
+			padding-top: 15px
+	.logo
+
+		img
+			width: 80px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.main-mnu
+		display: block !important
+	a
+		outline: none !important
