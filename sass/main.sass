@@ -44,79 +44,79 @@ body textarea:required:valid
 	.section-head
 		margin-bottom: 1px
 
-.slider
-	margin-bottom: 25px
-	.slide
-		text-align: center
-		margin-bottom: 30px
-		position: relative
-	.owl-item
-		.img-wrap, .slide-descr, h3, p
-			transition: all 1s ease
-			opacity: 0
-			transform: translate3d(100px, 0, 0)
-		.slide-descr, h3
-			transition-delay: .4s
-		p
-			transition-delay: .8s
-
-		&.active
+	.slider
+		margin-bottom: 25px
+		.slide
+			text-align: center
+			margin-bottom: 30px
+			position: relative
+		.owl-item
 			.img-wrap, .slide-descr, h3, p
-				opacity: 1
-				transform: translate3d(0, 0, 0)
+				transition: all 1s ease
+				opacity: 0
+				transform: translate3d(100px, 0, 0)
+			.slide-descr, h3
+				transition-delay: .4s
+			p
+				transition-delay: .8s
 
-		.img-wrap
-			width: 85%
-
-			display: inline-block
-			//border-radius: 10em
-			overflow: hidden
-			box-shadow: 0 0 0 7px $main-color
-			margin: 10px
-			transform: translate(20%,50%)
-
-		h3
-			text-transform: none
-			font-size: em(24px)
-			margin-bottom: 7px
-		.slide-descr
-			font-size: em(14px)
-			color: #6E7B8B
-		p
-			margin-top: 18px
-			margin-bottom: -20px
-
-	.owl-controls
-		text-align: center
-		.owl-dot
-			width: 15px
-			height: 15px
-			margin: 0 3px
-			background-color: #ccc
-			display: inline-block
-			border-radius: 10em
 			&.active
-				background-color: $main-color
-		.owl-nav
-			display: none
-
-			position: absolute
-			top: 15%
-			width: 100%
-			> div
-				height: 29px
-				width: 16px
-				background-image: url(../img/slider_arrows.png)
-				position: absolute
-				left: 20px
-				opacity: .5
-				transition: all .25s ease
-				&:hover
+				.img-wrap, .slide-descr, h3, p
 					opacity: 1
-			.owl-next
-				right: 20px
-				left: auto
-				background-position: -16px 0
+					transform: translate3d(0, 0, 0)
+
+			.img-wrap
+				width: 85%
+
+				display: inline-block
+				//border-radius: 10em
+				overflow: hidden
+				box-shadow: 0 0 0 7px $main-color
+				margin: 10px
+				transform: translate(20%,50%)
+
+			h3
+				text-transform: none
+				font-size: em(24px)
+				margin-bottom: 7px
+			.slide-descr
+				font-size: em(14px)
+				color: #6E7B8B
+			p
+				margin-top: 18px
+				margin-bottom: -20px
+
+		.owl-controls
+			text-align: center
+			.owl-dot
+				width: 15px
+				height: 15px
+				margin: 0 3px
+				background-color: #ccc
+				display: inline-block
+				border-radius: 10em
+				&.active
+					background-color: $main-color
+			.owl-nav
+				display: none
+
+				position: absolute
+				top: 15%
+				width: 100%
+				> div
+					height: 29px
+					width: 16px
+					background-image: url(../img/slider_arrows.png)
+					position: absolute
+					left: 20px
+					opacity: .5
+					transition: all .25s ease
+					&:hover
+						opacity: 1
+				.owl-next
+					right: 20px
+					left: auto
+					background-position: -16px 0
 
 
 .img-wrap
@@ -125,41 +125,30 @@ body textarea:required:valid
 	height: 100%
 
 
+
 .section_3
 	@extend .section_2
 	text-align: center
 	padding-top: 150px
+	display: block
+	background: none
 
 	.text
-		display: block
-		height: auto
-		margin-bottom: 50px
+		height: 100%
 		text-align: center
-		vertical-align: middle
-	::after
-		width: 100%
+		display: block
+		min-height: 450px
+		position: relative
 
 
 
 		.wrap-text
-			display: block
-			vertical-align: middle
-			padding: 30% 0
+			position: absolute
+			top: 25%
+			width: 50%
+			left: 50%
 
-			h2
-				
-
-
-
-
-
-
-
-
-
-
-
-
+			transform: translate(-50%, -50%)
 	.image
 		display: block
 		.img-wrap
@@ -167,6 +156,61 @@ body textarea:required:valid
 			img
 				width: 100%
 				height: 100%
+
+
+.section_4
+	background-image: url(../img/vol.png)
+	background-size: cover
+	background-position: center
+	background-repeat: no-repeat
+	padding-top: 100px
+	margin-top: 100px
+	@extend .section_2
+	h2
+		max-width: 95%
+
+.section_5
+	.img
+		img
+			width: 100%
+			height: 100%
+.section_6
+	.img-wrap
+		margin: auto
+		text-align: center
+		img
+			width: 70%
+			height: 100%
+			display: inline-block
+
+.section_7
+	.img-wrap
+		margin: auto
+		text-align: center
+		max-height: 500px
+		#q
+			max-height: 500px
+
+.section_9
+	.wrap
+		.item
+			background-color: #fff
+			padding: 10px
+
+
+
+			img
+				width: 100%
+				height: 100%
+				padding: 5px
+
+
+
+
+
+
+
+
 
 
 

@@ -552,66 +552,65 @@ body input:required:valid,
 body textarea:required:valid {
   color: #666; }
 
-.section_2, .section_3 {
+.section_2, .section_3, .section_4 {
   min-height: 500px;
   background-color: #000;
   padding-top: 250px;
   box-sizing: content-box; }
 
-.section_2 .section-head, .section_3 .section-head {
+.section_2 .section-head, .section_3 .section-head, .section_4 .section-head {
   margin-bottom: 1px; }
-
-.slider {
+.section_2 .slider, .section_3 .slider, .section_4 .slider {
   margin-bottom: 25px; }
-  .slider .slide {
+  .section_2 .slider .slide, .section_3 .slider .slide, .section_4 .slider .slide {
     text-align: center;
     margin-bottom: 30px;
     position: relative; }
-  .slider .owl-item .img-wrap, .slider .owl-item .slide-descr, .slider .owl-item h3, .slider .owl-item p {
+  .section_2 .slider .owl-item .img-wrap, .section_3 .slider .owl-item .img-wrap, .section_4 .slider .owl-item .img-wrap, .section_2 .slider .owl-item .slide-descr, .section_3 .slider .owl-item .slide-descr, .section_4 .slider .owl-item .slide-descr, .section_2 .slider .owl-item h3, .section_3 .slider .owl-item h3, .section_4 .slider .owl-item h3, .section_2 .slider .owl-item p, .section_3 .slider .owl-item p, .section_4 .slider .owl-item p {
     transition: all 1s ease;
     opacity: 0;
     transform: translate3d(100px, 0, 0); }
-  .slider .owl-item .slide-descr, .slider .owl-item h3 {
+  .section_2 .slider .owl-item .slide-descr, .section_3 .slider .owl-item .slide-descr, .section_4 .slider .owl-item .slide-descr, .section_2 .slider .owl-item h3, .section_3 .slider .owl-item h3, .section_4 .slider .owl-item h3 {
     transition-delay: 0.4s; }
-  .slider .owl-item p {
+  .section_2 .slider .owl-item p, .section_3 .slider .owl-item p, .section_4 .slider .owl-item p {
     transition-delay: 0.8s; }
-  .slider .owl-item.active .img-wrap, .slider .owl-item.active .slide-descr, .slider .owl-item.active h3, .slider .owl-item.active p {
+  .section_2 .slider .owl-item.active .img-wrap, .section_3 .slider .owl-item.active .img-wrap, .section_4 .slider .owl-item.active .img-wrap, .section_2 .slider .owl-item.active .slide-descr, .section_3 .slider .owl-item.active .slide-descr, .section_4 .slider .owl-item.active .slide-descr, .section_2 .slider .owl-item.active h3, .section_3 .slider .owl-item.active h3, .section_4 .slider .owl-item.active h3, .section_2 .slider .owl-item.active p, .section_3 .slider .owl-item.active p, .section_4 .slider .owl-item.active p {
     opacity: 1;
     transform: translate3d(0, 0, 0); }
-  .slider .owl-item .img-wrap {
+  .section_2 .slider .owl-item .img-wrap, .section_3 .slider .owl-item .img-wrap, .section_4 .slider .owl-item .img-wrap {
     width: 85%;
     display: inline-block;
     overflow: hidden;
     box-shadow: 0 0 0 7px #fff;
     margin: 10px;
     transform: translate(20%, 50%); }
-  .slider .owl-item h3 {
+  .section_2 .slider .owl-item h3, .section_3 .slider .owl-item h3, .section_4 .slider .owl-item h3 {
     text-transform: none;
     font-size: 1.5em;
     margin-bottom: 7px; }
-  .slider .owl-item .slide-descr {
+  .section_2 .slider .owl-item .slide-descr, .section_3 .slider .owl-item .slide-descr, .section_4 .slider .owl-item .slide-descr {
     font-size: 0.875em;
     color: #6E7B8B; }
-  .slider .owl-item p {
+  .section_2 .slider .owl-item p, .section_3 .slider .owl-item p, .section_4 .slider .owl-item p {
     margin-top: 18px;
     margin-bottom: -20px; }
-  .slider .owl-controls {
+  .section_2 .slider .owl-controls, .section_3 .slider .owl-controls, .section_4 .slider .owl-controls {
     text-align: center; }
-    .slider .owl-controls .owl-dot {
+    .section_2 .slider .owl-controls .owl-dot, .section_3 .slider .owl-controls .owl-dot, .section_4 .slider .owl-controls .owl-dot {
       width: 15px;
       height: 15px;
       margin: 0 3px;
       background-color: #ccc;
       display: inline-block;
       border-radius: 10em; }
-      .slider .owl-controls .owl-dot.active {
+      .section_2 .slider .owl-controls .owl-dot.active, .section_3 .slider .owl-controls .owl-dot.active, .section_4 .slider .owl-controls .owl-dot.active {
         background-color: #fff; }
-    .slider .owl-controls .owl-nav {
+    .section_2 .slider .owl-controls .owl-nav, .section_3 .slider .owl-controls .owl-nav, .section_4 .slider .owl-controls .owl-nav {
       display: none;
       position: absolute;
       top: 15%;
       width: 100%; }
-      .slider .owl-controls .owl-nav > div {
+      .section_2 .slider .owl-controls .owl-nav > div, .section_3 .slider .owl-controls .owl-nav > div, .section_4 .slider .owl-controls .owl-nav > div {
         height: 29px;
         width: 16px;
         background-image: url(../img/slider_arrows.png);
@@ -619,9 +618,9 @@ body textarea:required:valid {
         left: 20px;
         opacity: 0.5;
         transition: all 0.25s ease; }
-        .slider .owl-controls .owl-nav > div:hover {
+        .section_2 .slider .owl-controls .owl-nav > div:hover, .section_3 .slider .owl-controls .owl-nav > div:hover, .section_4 .slider .owl-controls .owl-nav > div:hover {
           opacity: 1; }
-      .slider .owl-controls .owl-nav .owl-next {
+      .section_2 .slider .owl-controls .owl-nav .owl-next, .section_3 .slider .owl-controls .owl-nav .owl-next, .section_4 .slider .owl-controls .owl-nav .owl-next {
         right: 20px;
         left: auto;
         background-position: -16px 0; }
@@ -633,33 +632,76 @@ body textarea:required:valid {
 
 .section_3 {
   text-align: center;
-  padding-top: 150px; }
+  padding-top: 150px;
+  display: block;
+  background: none; }
   .section_3 .text {
-    display: block;
-    height: auto;
-    margin-bottom: 50px;
+    height: 100%;
     text-align: center;
-    vertical-align: middle; }
-  .section_3 ::after {
-    width: 100%; }
-    .section_3 ::after .wrap-text {
-      display: block;
-      vertical-align: middle;
-      padding: 30% 0; }
+    display: block;
+    min-height: 450px;
+    position: relative; }
+    .section_3 .text .wrap-text {
+      position: absolute;
+      top: 25%;
+      width: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
   .section_3 .image {
     display: block; }
     .section_3 .image .img-wrap img {
       width: 100%;
       height: 100%; }
 
+.section_4 {
+  background-image: url(../img/vol.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  margin-top: 100px; }
+  .section_4 h2 {
+    max-width: 95%; }
+
+.section_5 .img img {
+  width: 100%;
+  height: 100%; }
+
+.section_6 .img-wrap, .section_6 .section_3 .image .img-wrap, .section_3 .image .section_6 .img-wrap {
+  margin: auto;
+  text-align: center; }
+  .section_6 .img-wrap img, .section_6 .section_3 .image .img-wrap img, .section_3 .image .section_6 .img-wrap img {
+    width: 70%;
+    height: 100%;
+    display: inline-block; }
+
+.section_7 .img-wrap, .section_7 .section_3 .image .img-wrap, .section_3 .image .section_7 .img-wrap {
+  margin: auto;
+  text-align: center;
+  max-height: 500px; }
+  .section_7 .img-wrap #q {
+    max-height: 500px; }
+
+.section_9 .wrap .item {
+  background-color: #fff;
+  padding: 10px; }
+  .section_9 .wrap .item img {
+    width: 100%;
+    height: 100%;
+    padding: 5px; }
+
 /*==========  Desktop First Method  ========== */
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  .section_3 .text .wrap-text {
-    padding: 0; } }
+  .section_4 {
+    padding-top: 25px; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /* */ }
+  /* */
+  .section_3 .text {
+    min-height: 100px; }
+    .section_3 .text h2 {
+      font-size: 1.25em; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   /*Disable Animation on Mobile Devices */
@@ -709,7 +751,21 @@ body textarea:required:valid {
       left: 0; }
 
   .about .wrap .text {
-    width: 100%; } }
+    width: 100%; }
+
+  .section_5 .img {
+    width: 100%;
+    padding: 0; } }
+.section_6 .img-wrap, .section_6 .section_3 .image .img-wrap, .section_3 .image .section_6 .img-wrap {
+  padding: 0; }
+  .section_6 .img-wrap img, .section_6 .section_3 .image .img-wrap img, .section_3 .image .section_6 .img-wrap img {
+    width: 100%; }
+
+.section_9 .wrap .item {
+  padding: 0; }
+  .section_9 .wrap .item img {
+    padding: 2px; }
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   /* */

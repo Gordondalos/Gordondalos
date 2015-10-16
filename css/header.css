@@ -17,7 +17,8 @@ body {
   overflow-x: hidden;
   color: #333333;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #3c3c3c; }
 
 .before {
   content: "";
