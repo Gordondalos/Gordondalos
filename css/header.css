@@ -37,11 +37,14 @@ a {
 
 .headers, h1, h2, h3, h4, h5, h6 {
   font-family: "SegoePrintRegular", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  text-transform: uppercase;
-  font-weight: normal; }
+  text-transform: none;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  line-height: 1.3em; }
 
 h1 {
-  font-size: 3em; }
+  font-size: 2.375em; }
 
 h2 {
   font-size: 1.875em; }
@@ -55,7 +58,8 @@ b, strong {
 .section_1 {
   background-image: url("../img/map.png");
   min-height: 500px;
-  background-size: cover; }
+  background-size: cover;
+  background-color: #000000; }
 
 .nav-wrap, .fa-bars-wrap .nav-wrap-hidden ul li {
   text-align: right; }
@@ -113,5 +117,42 @@ b, strong {
     .fa-bars-wrap .fa-bars:hover {
       transition: all 0.5s ease;
       color: #ddd; }
+
+.about {
+  color: #333333;
+  margin: 0 0 -100px; }
+  .about .wrap {
+    background-color: #fff;
+    background-image: url("../img/map.png");
+    background-size: cover;
+    height: 350px;
+    margin-top: 200px;
+    position: relative; }
+    .about .wrap .text {
+      width: 50%;
+      position: absolute;
+      right: 0;
+      background-color: #fff;
+      opacity: 0.8;
+      display: block;
+      text-align: center;
+      vertical-align: middle;
+      height: 100%; }
+      .about .wrap .text h1 {
+        color: #333333;
+        position: absolute;
+        display: block;
+        width: 100%;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%); }
+      .about .wrap .text p {
+        color: #333333;
+        position: absolute;
+        display: block;
+        width: 70%;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=header.css.map */

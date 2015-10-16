@@ -11,7 +11,10 @@
 
 
 @media only screen and (max-width : 1200px)
-
+	.section_3
+		.text
+			.wrap-text
+				padding: 0
 
 
 /* Medium Devices, Desktops */
@@ -19,9 +22,12 @@
 	/**/
 
 
+
+
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	
+
 	/*Disable Animation on Mobile Devices*/
 	.animated
 		/*CSS transitions*/
@@ -47,6 +53,25 @@
 		visibility: visible
 	.nav-wrap
 		display: none
+	.about
+		.wrap
+			.text
+
+				h1
+					left: 50%
+
+				p
+
+					width: 70%
+					left: 50%
+	.slider
+		.owl-controls
+			.owl-nav
+				top: 5%
+
+	.section_3
+		padding-top: 20px
+
 
 
 
@@ -59,6 +84,13 @@
 		margin: 20px
 		.nav-wrap-hidden
 			left: 0
+	.about
+		.wrap
+			.text
+				width: 100%
+
+
+
 
 
 
@@ -66,6 +98,17 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/
+	.about
+		.wrap
+			.text
+
+				h1
+					left: 40%
+
+				p
+
+					width: 70%
+					left: 40%
 
 
 /*==========  Mobile First Method  ==========*/

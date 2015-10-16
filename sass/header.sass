@@ -43,9 +43,11 @@ a
 
 .headers
 	font-family: "SegoePrintRegular", $helvetica
-	text-transform: uppercase
+	text-transform: none
 	font-weight: normal
-
+	color: $main-color
+	text-align: center
+	line-height: 1.3em
 
 
 
@@ -54,7 +56,7 @@ h1, h2, h3, h4, h5, h6
 	@extend .headers
 
 h1
-	font-size: em(48px)
+	font-size: em(38px)
 
 h2
 	font-size: em(30px)
@@ -69,6 +71,7 @@ b, strong
 	background-image: url("../img/map.png")
 	min-height: 500px
 	background-size: cover
+	background-color: #000000
 
 //навигация в хедере
 .nav-wrap
@@ -82,7 +85,7 @@ b, strong
 
 
 
-//Навигационная иконка
+//Навигационная иконка и меню
 .fa-bars-wrap
 	display: block
 	visibility: hidden
@@ -148,5 +151,51 @@ b, strong
 			color: #ddd
 
 
-//Конец навигационной иконки
+//Конец навигационной иконки и меню
 
+// первый лид
+.about
+	color: $cfb
+	margin: 0 0 -100px
+
+	.wrap
+		background-color: #fff
+		background-image: url("../img/map.png")
+		background-size: cover
+		//width: 600px
+		height: 350px
+		margin-top: 200px
+
+		position: relative
+		
+		.text
+			width: 50%
+			position: absolute
+			right: 0
+			background-color: #fff
+			opacity: 0.8
+			display: block
+			text-align: center
+			vertical-align: middle
+			height: 100%
+
+
+			h1
+				color: $cfb
+				position: absolute
+				display: block
+				width: 100%
+				left: 50%
+				top: 30%
+				transform: translate(-50%,-50%)
+			p
+				color: $cfb
+				position: absolute
+				display: block
+				width: 70%
+				left: 50%
+				top: 55%
+				transform: translate(-50%,-50%)
+
+
+// конец первого лида
