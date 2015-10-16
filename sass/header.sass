@@ -2,8 +2,12 @@
 
 @import "fonts"
 
-$main-color: #f39f18
-$headers-color: #2c3949
+$main-color: #fff
+$ser: #DDD
+$cfb: #333333
+
+
+
 
 
 body
@@ -14,6 +18,10 @@ body
 	font-family: "SegoePrintRegular", $helvetica
 	overflow-x: hidden
 	color: #333333
+	margin: 0
+	padding: 0
+
+
 .before
 	content: ''
 	width: 100%
@@ -25,15 +33,21 @@ body
 .hidden
 	display: none
 
-a, a:hover, a:active, a:focus
-	color: $main-color
-	text-decoration: underline
+
+a
+	text-decoration: none
+	&:hover, a:active, a:focus
+		text-decoration: underline
+
+
 
 .headers
 	font-family: "SegoePrintRegular", $helvetica
 	text-transform: uppercase
 	font-weight: normal
-	color: $headers-color
+
+
+
 
 
 h1, h2, h3, h4, h5, h6
@@ -55,16 +69,84 @@ b, strong
 	background-image: url("../img/map.png")
 	min-height: 500px
 	background-size: cover
-.menu
-	ul
-		li
-			display: inline-block
-			list-style-type: none
-			padding: 0 10px
 
-			a
-				color: white
-				text-decoration: none
+//навигация в хедере
+.nav-wrap
+	text-align: right
+	li
+		display: inline-block
+		list-style-type: none
+		padding: 10px
+		a
+			color: $main-color
 
 
+
+//Навигационная иконка
+.fa-bars-wrap
+	display: block
+	visibility: hidden
+	text-align: right
+	margin: 40px 50px 0
+	position: relative
+	a
+		display: block
+
+
+
+	.nav-wrap-hidden
+
+		display: none
+		position: absolute
+		right: 0
+		box-shadow: 0 0 10px rgba(0,0,0,1)
+		border-bottom: 3px solid #999999
+		width: 200px
+		nav
+			width: 200px
+		ul
+			margin: 0
+			padding: 0
+
+
+
+			li
+				@extend .nav-wrap
+				display: block
+				background-color: $ser
+				width: 200px
+				padding: 7px
+				text-align: center
+				opacity: 0.8
+
+				&:hover
+					background-color: #fff
+					transition: all 1s ease
+					opacity: 1
+					transform: scale(1.01)
+
+				a
+					color: $cfb
+					display: block
+					&:hover
+						transform: scale(1.01)
+						text-decoration: none
+	.on
+
+		display: block
+
+
+
+
+
+	.fa-bars
+		color: white
+		cursor: pointer
+		font-size: em(28px)
+		&:hover
+			transition: all .5s ease
+			color: #ddd
+
+
+//Конец навигационной иконки
 

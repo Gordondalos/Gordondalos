@@ -24,34 +24,6 @@ body textarea:required:valid {
 
 /*==========  Desktop First Method  ========== */
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  .main-mnu {
-    display: none;
-    min-width: 295px;
-    float: right;
-    background-color: #1c242c;
-    margin-top: 20px; }
-    .main-mnu ul li {
-      display: block;
-      line-height: 0;
-      padding: 0; }
-      .main-mnu ul li a {
-        background-color: transparent;
-        display: block;
-        text-align: right;
-        line-height: 48px;
-        padding: 0 20px;
-        font-size: 1.125em;
-        -webkit-transition: all 0.5s ease;
-        time-moz-transition: all 0.5s ease;
-        time-ms-transition: all 0.5s ease;
-        time-o-transition: all 0.5s ease;
-        timetransition: all 0.5s ease time; }
-        .main-mnu ul li a:hover {
-          background-color: #273646; }
-
-  .phone {
-    padding-right: 65px; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   /* */ }
@@ -76,19 +48,20 @@ body textarea:required:valid {
     -moz-animation: none !important;
     -o-animation: none !important;
     -ms-animation: none !important;
-    animation: none !important; } }
+    animation: none !important; }
+
+  .fa-bars-wrap {
+    visibility: visible; }
+
+  .nav-wrap {
+    display: none; } }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  .phone-wrap .phone {
-    font-size: 1.125em;
-    line-height: 34px;
-    padding-right: 50px; }
-  .phone-wrap .toggle-mnu {
-    line-height: 34px;
-    padding-top: 15px; }
-
-  .logo img {
-    width: 80px; } }
+  .fa-bars-wrap {
+    text-align: left;
+    margin: 20px; }
+    .fa-bars-wrap .nav-wrap-hidden {
+      left: 0; } }
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   /* */ }
@@ -104,11 +77,5 @@ body textarea:required:valid {
   /* */ }
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  .main-mnu {
-    display: block !important; }
-
-  a {
-    outline: none !important; } }
 
 /*# sourceMappingURL=main.css.map */
