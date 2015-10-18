@@ -60,6 +60,10 @@ $(document).ready(function() {
 
 
 
+	$(".parallax").myParallax({
+		"speed" : "30"
+	});
+
 	
 });
 
