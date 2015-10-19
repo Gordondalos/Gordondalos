@@ -64,7 +64,45 @@ $(document).ready(function() {
 		"speed" : "30"
 	});
 
-	
+// tooltip
+	$('.tooltip').tooltipster();
+
+
+
+	//прокрутка страницы
+
+	// hide #back-top first
+	$("#back-top").hide();
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 5000);
+			return false;
+		});
+	});
+
+	// прокрутка страницы
+	//<!--Скрипт привязки меню к верху при прокрутке-->
+
+	var $menu = $("#menu");
+	$(window).scroll(function(){
+		if ( $(this).scrollTop() > 90 && $menu.hasClass("default") ){
+			$menu.removeClass("default").addClass("fixed");
+		} else if($(this).scrollTop() <= 90 && $menu.hasClass("fixed")) {
+			$menu.removeClass("fixed").addClass("default");
+		}
+	});//scroll
+//<!--Скрипт привязки меню к верху при прокрутке-->
 });
 
 $(window).load(function() {
