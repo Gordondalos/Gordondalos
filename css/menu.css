@@ -2,7 +2,7 @@
 
 /*меню для прокрутки*/
 #menu.default {
-	position:relative;
+	position:fixed;
 }
 #menu.fixed {
 	position:fixed;

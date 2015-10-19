@@ -107,31 +107,32 @@ b, strong {
   visibility: hidden;
   text-align: right;
   margin: 40px 50px 0;
-  position: relative;
+  position: fixed;
+  z-index: 20;
 }
-/* line 94, ../sass/header.sass */
+/* line 95, ../sass/header.sass */
 .fa-bars-wrap a {
   display: block;
 }
-/* line 99, ../sass/header.sass */
+/* line 100, ../sass/header.sass */
 .fa-bars-wrap .nav-wrap-hidden {
   display: none;
   position: absolute;
-  right: 0;
   box-shadow: 0 0 10px black;
   border-bottom: 3px solid #999999;
   width: 200px;
+  z-index: 20;
 }
-/* line 107, ../sass/header.sass */
+/* line 110, ../sass/header.sass */
 .fa-bars-wrap .nav-wrap-hidden nav {
   width: 200px;
 }
-/* line 109, ../sass/header.sass */
+/* line 112, ../sass/header.sass */
 .fa-bars-wrap .nav-wrap-hidden ul {
   margin: 0;
   padding: 0;
 }
-/* line 115, ../sass/header.sass */
+/* line 118, ../sass/header.sass */
 .fa-bars-wrap .nav-wrap-hidden ul li {
   display: block;
   background-color: #DDD;
@@ -140,45 +141,45 @@ b, strong {
   text-align: center;
   opacity: 0.8;
 }
-/* line 124, ../sass/header.sass */
+/* line 127, ../sass/header.sass */
 .fa-bars-wrap .nav-wrap-hidden ul li:hover {
   background-color: #fff;
   transition: all 1s ease;
   opacity: 1;
   transform: scale(1.01);
 }
-/* line 130, ../sass/header.sass */
+/* line 133, ../sass/header.sass */
 .fa-bars-wrap .nav-wrap-hidden ul li a {
   color: #333333;
   display: block;
 }
-/* line 133, ../sass/header.sass */
+/* line 136, ../sass/header.sass */
 .fa-bars-wrap .nav-wrap-hidden ul li a:hover {
   transform: scale(1.01);
   text-decoration: none;
 }
-/* line 136, ../sass/header.sass */
+/* line 139, ../sass/header.sass */
 .fa-bars-wrap .on {
   display: block;
 }
-/* line 144, ../sass/header.sass */
+/* line 147, ../sass/header.sass */
 .fa-bars-wrap .fa-bars {
   color: white;
   cursor: pointer;
   font-size: 1.75em;
 }
-/* line 148, ../sass/header.sass */
+/* line 151, ../sass/header.sass */
 .fa-bars-wrap .fa-bars:hover {
   transition: all 0.5s ease;
   color: #ddd;
 }
 
-/* line 156, ../sass/header.sass */
+/* line 159, ../sass/header.sass */
 .about {
   color: #333333;
   margin: 0 0 -100px;
 }
-/* line 160, ../sass/header.sass */
+/* line 163, ../sass/header.sass */
 .about .wrap {
   background-color: #fff;
   background-image: url("../img/map.png");
@@ -187,7 +188,7 @@ b, strong {
   margin-top: 200px;
   position: relative;
 }
-/* line 170, ../sass/header.sass */
+/* line 173, ../sass/header.sass */
 .about .wrap .text {
   width: 50%;
   position: absolute;
@@ -199,7 +200,7 @@ b, strong {
   vertical-align: middle;
   height: 100%;
 }
-/* line 182, ../sass/header.sass */
+/* line 185, ../sass/header.sass */
 .about .wrap .text h1 {
   color: #333333;
   position: absolute;
@@ -209,7 +210,7 @@ b, strong {
   top: 30%;
   transform: translate(-50%, -50%);
 }
-/* line 190, ../sass/header.sass */
+/* line 193, ../sass/header.sass */
 .about .wrap .text p {
   color: #333333;
   position: absolute;

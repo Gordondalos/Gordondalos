@@ -90,7 +90,8 @@ b, strong
 	visibility: hidden
 	text-align: right
 	margin: 40px 50px 0
-	position: relative
+	position: fixed
+	z-index: 20
 	a
 		display: block
 
@@ -100,10 +101,12 @@ b, strong
 
 		display: none
 		position: absolute
-		right: 0
+		//right: 0
 		box-shadow: 0 0 10px rgba(0,0,0,1)
 		border-bottom: 3px solid #999999
 		width: 200px
+		z-index: 20
+
 		nav
 			width: 200px
 		ul
