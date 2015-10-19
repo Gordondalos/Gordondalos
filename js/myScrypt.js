@@ -74,6 +74,8 @@ $(document).ready(function () {
     });
 
 
+    $('.section_9 img').addClass('wow zoomIn');
+    $('.section_6 img').addClass('wow zoomIn');
 
     //new WOW().init();
 
