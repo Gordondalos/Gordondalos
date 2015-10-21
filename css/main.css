@@ -1132,16 +1132,17 @@ body textarea:required:valid {
 .section_13 {
   background-color: #fff;
   margin-bottom: 100px;
+  padding-bottom: 100px;
 }
-/* line 345, ../sass/main.sass */
+/* line 347, ../sass/main.sass */
 .section_13 h1, .section_13 h2, .section_13 p {
   color: #333333;
 }
-/* line 348, ../sass/main.sass */
+/* line 350, ../sass/main.sass */
 .section_13 .wrap {
   font-size: 0;
 }
-/* line 351, ../sass/main.sass */
+/* line 353, ../sass/main.sass */
 .section_13 .wrap .item {
   background-color: #fff;
   padding: 10px;
@@ -1149,20 +1150,24 @@ body textarea:required:valid {
   display: inline-block;
   vertical-align: top;
 }
-/* line 358, ../sass/main.sass */
-.section_13 .wrap .item p {
+/* line 360, ../sass/main.sass */
+.section_13 .wrap .item p, .section_13 .wrap .item li {
   font-size: 14px;
   text-align: center;
 }
-/* line 362, ../sass/main.sass */
+/* line 364, ../sass/main.sass */
 .section_13 .wrap .item img {
   width: 100%;
   height: 100%;
   padding: 5px;
   background-color: #fff;
 }
+/* line 369, ../sass/main.sass */
+.section_13 .wrap li {
+  font-size: 14px;
+}
 
-/* line 373, ../sass/main.sass */
+/* line 379, ../sass/main.sass */
 .all {
   width: 70%;
   height: 100%;
