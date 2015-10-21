@@ -1,43 +1,47 @@
 #back-top {
-    position: fixed;
-    bottom: 30px;
-    right: 0;
-    margin-right: 10px;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	margin-right: 10px;
+
 
 }
 #back-top a {
-    width: 108px;
-    display: block;
-    text-align: center;
-    font: 11px/100% Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #bbb;
-    /* замедление */
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
+
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	width: 50px;
+	height: 50px;
 }
 #back-top a:hover {
-    color: #000;
+	color: #000;
+
 }
-/* изображение со стрелкой (тег span) */
+
 #back-top span {
-    width: 108px;
-    height: 108px;
-    display: block;
-    margin-bottom: 7px;
-    background: #999 url(../img/up-arrow.png) no-repeat center center;
-    /* закругленные углы */
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    /* замедление */
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
-    z-index: 10000;
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-bottom: 7px;
+	background: #999 url(../img/up-arrow.png) no-repeat center center;
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+
+	opacity: 0.7;
 }
 #back-top a:hover span {
-    background-color: #444;
+	background-color: #444;
 }

@@ -1,520 +1,719 @@
 <!DOCTYPE html>
-<html lang="ru">
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
+
 <head>
-    <meta charset="UTF-8">
-    <title>My personal page</title>
 
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
 
-    <!--tooltip -->
-    <link rel="stylesheet" type="text/css" href="./css/tooltipster.css"/>
-    <script type="text/javascript" src="./js/jquery-1.7.0.min.js"></script>
-    <script type="text/javascript" src="./js/jquery.tooltipster.min.js"></script>
-    <!--tooltip -->
+    <title>Заголовок</title>
+    <meta name="description" content="">
 
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
-    <!--Прокрутка страницы-->
-    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>-->
-    <link rel="stylesheet" type="text/css" href="./css/buttons.css">
-    <!--Прокрутка страницы-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Анимация -->
-    <link type="text/css" rel="stylesheet" href="./css/animate.css"/>
-
-
-
-    <!-- Анимация -->
-
-
-    <link type="text/css" rel="stylesheet" href="./css/mypage.css"/>
-    <link type="text/css" rel="stylesheet" href="./css/pb.css"/>
-    <link type="text/css" rel="stylesheet" href="./css/paralax.css"/>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+    <!--<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">-->
+    <!--<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.css">-->
+    <link rel="stylesheet" href="libs/animate/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
 
 
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <script src="./js/myScrypt.js"></script>
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 7]>
-    <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"><![endif]-->
-    <!--[if IE 7]>
-    <html class="no-js lt-ie9 lt-ie8" lang="en-US"><![endif]-->
-    <!--[if IE 8]>
-    <html class="no-js lt-ie9" lang="en-US"><![endif]-->
-    <!--[if gt IE 8]><!-->
 
+    <script src="libs/modernizr/modernizr.js"></script>
 
 </head>
+
 <body>
-
-<!--Эфекты паралакса-->
-
+<div class="all"></div>
 
 
+<!-- Здесь пишем код -->
+<section class="section_1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="header">
+                <div class="container">
+                    <div class="row">
 
-<!--Эфекты паралакса-->
-<header>
-    <div class="content">
-        <div id="menu" class="default menu wow bounceInLeft">
-            <ul>
-                <li><a id="I" href="myfoto">Это Я</a> </li>
-                <li><a id="do" href="green">Что я делаю</a> </li>
-                <li><a id="skill" href="skill"> Навыки</a> </li>
-                <li><a id="experience" href="lamp">Опыт</a> </li>
-                <li><a id="work" href="work">Работы</a> </li>
-                <li><a id="contact" href="contact">Контакты</a> </li>
-            </ul>
-        </div>
-    </div>
-    <div class="clear"></div>
-    <div class="margin"></div>
+                        <div id="menu" class="default nav-wrap
+                                            col-md-8
+                                            col-md-offset-4 ">
+                            <nav>
+                                <ul>
+                                    <li><a id="I" href="section_1">Обо мне</a></li>
+                                    <li><a id="skills" href="section_9">Навыки</a></li>
+                                    <li><a id="portfolio" href="section_8">Портфолио</a></li>
+                                    <li><a id="tech" href="section_12">Технологии</a></li>
+                                    <li><a id="contact" href="section_12">Контакты</a></li>
+                                </ul>
+                            </nav>
 
 
-    <section class="paralax">
+                        </div>
 
-            <div class="heder_text">
+                        <div id="menu" class="fa-bars-wrap default">
+                            <i  class="fa fa-bars"></i>
 
-                <div class="myfoto wow bounceInRight">
-                    <div class="circle">
+                            <div  class="nav-wrap-hidden">
+                                <nav>
+                                    <ul>
+                                        <li><a id="I" href="section_1">Обо мне</a></li>
+                                        <li><a id="skills" href="section_9">Навыки</a></li>
+                                        <li><a id="portfolio" href="section_8">Портфолио</a></li>
+                                        <li><a id="tech" href="section_12">Технологии</a></li>
+                                        <li><a id="contact" href="section_12">Контакты</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
 
                     </div>
+                </div>
+
+
+            </div>
+
+            <div class="about I">
+                <div class="container">
+                    <div class="row">
+                        <div class="wrap
+                        col-sm-9
+                        col-sm-offset-1
+                        col-md-8
+                        col-md-offset-1
+
+
+
+
+                        ">
+                            <div class="text">
+
+                                <h1>Обо мне</h1>
+
+                                <p>Родился я в Кыргызстане, - там где проходит шeлковый путь.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+<section class="section_2">
+    <div class="container">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="section-head col-md-4 col-md-offset-4">
+                    <h2>Вид природы
+                        стимулировал
+                        на подвиги</h2>
+
 
                 </div>
 
             </div>
 
-
-    </section>
-    <section class="paralax2">
-<img class="paralaximg" src="./img/paralaximg.jpg">
-    </section>
+        </div>
 
 
+        <div class="slider tooltip" title="Это слайдер между прочим, крутоните его потянув мышкой">
 
-    <div  class="central fio">
-        <h1>Евгeний Бондаренко</h1>
+            <div class="slide">
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="img-wrap">
+                                <img src="img/team/1.png" alt="Review">
+                            </div>
+
+                            <h3>Михаил Алексеевич Потапов</h3>
+
+                            <div class="slide-descr">ООО "Роскомнадзор"</div>
+                            <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                                Подзаголовок вскоре, деревни? Вопроса строчка пор, последний вершину заглавных
+                                единственное? Над щеке злых, залетают то безорфографичный своих текстов бросил живет.
+                                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                                Подзаголовок вскоре, деревни? Вопроса строчка пор, последний вершину заглавных
+                                единственное? Над щеке злых, залетают то безорфографичный своих текстов бросил
+                                живет.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-12 ">
+
+                            <div class="img-wrap">
+                                <img src="img/team/2.png" alt="Review">
+                            </div>
+
+                            <h3>Михаил Алексеевич Потапов</h3>
+
+                            <div class="slide-descr">ООО "Роскомнадзор"</div>
+                            <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                                Подзаголовок вскоре, деревни? Вопроса строчка пор, последний вершину заглавных
+                                единственное? Над щеке злых, залетают то безорфографичный своих текстов бросил живет.
+                                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                                Подзаголовок вскоре, деревни? Вопроса строчка пор, последний вершину заглавных
+                                единственное? Над щеке злых, залетают то безорфографичный своих текстов бросил
+                                живет.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-12 ">
+
+                            <div class="img-wrap">
+                                <img src="img/team/3.png" alt="Review">
+                            </div>
+
+                            <h3>Михаил Алексеевич Потапов</h3>
+
+                            <div class="slide-descr">ООО "Роскомнадзор"</div>
+                            <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                                Знаках океана проектах моей ipsum маленькая встретил, предупреждал наш великий агенство
+                                букв, однажды рукопись прямо, продолжил свою деревни пустился залетают!Далеко-далеко за
+                                словесными горами в стране, гласных и согласных живут рыбные тексты. Подзаголовок
+                                вскоре, деревни? Вопроса строчка пор, последний вершину заглавных единственное? Над щеке
+                                злых, залетают то безорфографичный своих текстов бросил живет. Далеко-далеко за
+                                словесными горами в стране, гласных и согласных живут рыбные тексты. Подзаголовок
+                                вскоре, деревни? Вопроса строчка пор, последний вершину заглавных единственное? Над щеке
+                                злых, залетают то безорфографичный своих текстов бросил живет.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
     </div>
-    <div  class="central">
-        <p>front-end developer</p>
 
+
+</section>
+
+<section class="section_3 parallax" data-parallax-image="./img/map.png">
+    <div class="container">
+        <div class="row">
+            <div class="text col-md-6  col-lg-6 col-sm-12">
+
+
+                <div class="wrap-text wow FadeIn"  data-wow-offset="10">
+                    <h2>И Я решил взять себя в руки!</h2>
+                </div>
+
+
+            </div>
+            <div class="image col-md-6 col-lg-6 col-sm-12">
+                <div class="img-wrap wow bounceInRight">
+                    <img src="./img/kulak_22.jpg" alt="кулак">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section_5">
+    <div class="container">
+        <div class="row">
+            <div class="wrap-text">
+                <h2>Но светлые идеи приходили мне в голову</h2>
+            </div>
+            <div class="image-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="img col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <img src="./img/lamp.png" alt="Мысли">
+                        </div>
+                        <div class="img col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <img src="./img/mozg.png" alt="Мысли">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_4 parallax tooltip" title="Эфекты паралакса очень красивы" data-parallax-image="./img/vol.png">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <h2>Путь к знаниям был тернист и опасен</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_6">
+    <div class="container">
+        <div class="row">
+            <div class="text_wrap col-xs-10 col-xs-offset-1 ">
+                <h2>И я упорно трудился</h2>
+            </div>
+            <div class="img-wrap text_wrap col-xs-12 ">
+                <img src="./img/shahta.jpg" alt="Мое фото)">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_7">
+    <div class="container-fluide">
+        <div class="row">
+            <div class="text_wrap col-xs-10 col-xs-offset-1 ">
+                <h2>Изучал основы мастерства (Технология Canvas)</h2>
+            </div>
+            <div class="img-wrap text_wrap col-xs-12 ">
+                <canvas id="q"></canvas>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section_8">
+    <div class="container">
+        <div class="row">
+            <div class="text_wrap col-xs-10 col-xs-offset-1 ">
+                <h2>Выполнял разные работы,
+                    прокачивая мозг все сильнее
+                    и сильнее, данные работы вы можете посматерть в моем профиле на гитхабе (gordondalos)
+                </h2>
+            </div>
+            <div class="img-wrap">
+
+                <div class="item">
+                    <h5>Смарт Ивент - ивент агенство</h5>
+
+                    <div class="img">
+                        <img src="./img/job/smi.png" alt="Альянс">
+                    </div>
+
+                    <p>Сайт полностью написан на Symfony2, с приверстаным профессиональным шаблоном</p>
+                </div>
+                <div class="item">
+                    <h5>Армата Финансовая группа (Учебный)</h5>
+
+                    <div class="img">
+                        <img src="./img/job/_home.png" alt="учебный">
+                    </div>
+
+                    <p>Данное произведение искуства получается при выполнении
+                        урока на сайте http://webdesign-master.ru/</p>
+                </div>
+                <div class="item">
+                    <h5>Программа win-sync (Синхронизатор)</h5>
+
+                    <div class="img">
+                        <img src="./img/job/winsync.png" alt="winsync">
+                    </div>
+
+                    <p>Программа написанная на c# с использованием протокола протокола rsync,
+                        предназначена для файловой синхронизации</p>
+                </div>
+                <div class="item">
+                    <h5>Программа отправки смс из 1С</h5>
+
+                    <div class="img">
+                        <img src="./img/job/1c-to-sms.png" alt="1c-to-sms">
+                    </div>
+
+                    <p>Программа написана на С# для отправки СМС из 1С (8.2, 8.3)
+                        с использованием стороннего ПО или Вебсрвера с PHP.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_9">
+    <div class="container">
+        <div class="row">
+            <div class="text_wrap col-xs-10 col-xs-offset-1 ">
+                <h2>Навки кодописания
+                    растут как на дрожжях,
+                    Я использую самые новые технологии</h2>
+            </div>
+            <div class="wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="item"><img src="./img/skil/simf.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/php-elephant.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/c.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/html5.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/mysql.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/svg.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/sass-compass.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/postgresql.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/css3.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/oracle.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/emmet.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/storm.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/javascript_logo.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/ai.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/gulp-sass.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/sass.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/canvas.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/bourbon.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/Boostrap_logo.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/git.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/ph.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/twig.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/node.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/fa.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/MySQLWorkbench.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/bit.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/composer.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/yaml.jpg" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/jquery.gif" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/parallax_logo.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/grunt.png" alt="alt"></div>
+                        <div class="item"><img src="./img/skil/linux.jpg" alt="alt"></div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section_10">
+    <div class="container">
+        <div class="row">
+            <div class="text_wrap col-xs-10 col-xs-offset-1 ">
+                <h2>Вскоре я достиг мастерства
+                    планетарного масштаба
+                </h2>
+            </div>
+            <div class="img-wrap">
+                <iframe src="./libs/ears/Solar-System/index.html" width="91%" height="323" frameborder="1"></iframe>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_11">
+    <div class="container">
+        <div class="row">
+            <div class="item">
+                <h2>От моих
+                    возможностей
+                    Ваше лицо
+                    может преобразиться
+                    до неузноваемости.</h2>
+                <img src="./img/strela.png" alt="strela" class="strela wow rotateInDownRight">
+            </div>
+            <div class="item">
+                <img src="./img/photo.jpg" alt="" class=" wow fadeIn">
+            </div>
+
+            <div class="item">
+                <img src="./img/leopard.jpg" alt="" class=" wow fadeIn">
+            </div>
+            <div class="item">
+                <h2> Ради счастливого
+                    клиента я готов идти
+                    до конца!</h2>
+                <img src="./img/strela.png" alt="strela" class="strela">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_13">
+    <div class="container">
+        <div class="row">
+            <div class="text_wrap col-xs-10 col-xs-offset-1 ">
+                <h2>Технологии используемые на этой странице</h2>
+            </div>
+            <div class="wrap">
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="item">
+                            <img src="./img/skil/html5.png" alt="alt">
+
+                            <p>HTML5</p>
+
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/svg.jpg" alt="alt">
+
+                            <p>SVG Изображдения</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/sass-compass.png" alt="alt">
+
+                            <p>Компилятор CSS compas</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/css3.png" alt="alt">
+
+                            <p>Css версии 3</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/emmet.png" alt="alt">
+
+                            <p>Инструмент быстрого набора Эммет</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/storm.png" alt="alt">
+
+
+                            <p>Среда разра
+                                ботки</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/javascript_logo.jpg" alt="alt">
+
+                            <p>Web язык программирования java-script</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/ai.jpg" alt="alt">
+
+                            <p>Обработчик изображений Adobe Illustrator CC</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/sass.png" alt="alt">
+
+                            <p>Sass — это метаязык на основе CSS</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/canvas.png" alt="alt">
+
+                            <p>Технология програмного изображение на холсте canvas </p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/bourbon.png" alt="alt">
+
+                            <p>bourbon - библиотека метаязыка Sass</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/Boostrap_logo.png" alt="alt">
+
+                            <p>Популярный CSS/HTML набор инструментов для верстки</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/git.jpg" alt="alt">
+
+                            <p>Система контроля версий</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/ph.jpg" alt="alt">
+
+                            <p>Adobe Photoshop Популярная программа для обработки изображений</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/fa.png" alt="alt">
+
+                            <p>Font-Awesome Богатейша библиотека шрифтовых иконок</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/skil/jquery.gif" alt="alt">
+
+                            <p>Jquery это JavaScript-библиотека, фокусирующаяся на взаимодействии JavaScript, HTML и
+                                CSS.</p>
+                        </div>
+                        <!--<div class="item">-->
+                            <!--<img src="./img/skil/parallax_logo.png" alt="alt">-->
+
+                            <!--<p>Технология Parralax это технология изменения видимого положения объекта относительно-->
+                                <!--удалённого фона в зависимости от положения наблюдателя.</p>-->
+                        <!--</div>-->
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
 
-</header>
-<div class="clear"></div>
-<div class="margin"></div>
-<div class="green" >
-    <div class ="content">
-        <div class="central"><h2> Что я делаю</h2></div>
+</section>
 
-        <div class="one">
-            <div class="green-circle-left"></div>
-            <p class="justifya">Занимаюсь проектиро&shyвкой и разра&shyботкой
-                интер&shyфей&shyсов для веб-прило&shyжений и сайтов.
-                Front-end это не просто красивое лицо,
-                это друже&shyственный, понятный интерфейс
-                веб-проекта.
-            </p>
+<section class="section_12">
+    <div class="container">
+        <div class="row">
+            <div class="text_wrap col-xs-10 col-xs-offset-1 ">
+                <h2>Свяжитесь со мной прямо сейчас
+                </h2>
+            </div>
+            <div class="item">
+                <h3>
+                    gordondalos@gmail.com
+                </h3>
+
+                <h3>skype: gordondalos.kg</h3>
+
+                <h3>tel: +996 777-99-029</h3>
+
+            </div>
+            <div class="item2">
+                <img src="./img/visitka.jpg" alt="">
+            </div>
         </div>
-
-        <div class="two">
-            <div class="green-circle-middle"></div>
-            <p class="justifya">
-                Eсли вы беспокоитесь о том, как долго пользователи
-                ждут загрузки вашего сайта, особое внимание нужно сосредоточить
-                именно на Интерфейсе. Качетвенная верстка и своевременная подгрузка контента
-                залог успеха.
-
-            </p>
-        </div>
-
-        <div class="three">
-            <div class="green-circle-rigth"></div>
-            <p class="justifya">В веб-проекте, разметка это то,
-                с чего начинается клиентская сторона.
-                В верстке я использую все из последнего
-                арсенала HTML5 и CSS3.
-            </p>
-        </div>
-
-        <div class="four">
-            <div class="green-circle-rigth2"></div>
-            <p class="justifya">Но все же больше я себя позиционирую как
-                Java&shyScript программист. Я использую ООП подходы,
-                классы, прототипы, замы&shyкания и прочие вещи.
-            </p>
-        </div>
-        <div class="clear"></div>
-
-
     </div>
+</section>
+
+<!-- Здесь пишем код -->
+
+
+<div class="hidden">
+
 
 </div>
 
-<div class="margin"></div>
-<div class="skill wow zoomIn" data-wow-offset="400">
-    <div class="content">
 
-        <div class="central"><h2> Умения, навыки</h2></div>
-
-        <div class="one_white">
-            <div class="tooltip  tooltip progress-bar greens shine" title="100%">
-                <span style="width: 100%;"></span>
-                <br>
-
-                <p>HTML, HTML5</p>
-            </div>
-
-            <div class=" tooltip progress-bar orange shine" title="80%">
-                <span style="width: 80%;"></span>
-                <br>
-
-                <p>Jquery</p>
-            </div>
-            <div class=" tooltip progress-bar blue shine" title="80%">
-                <span style="width: 90%;"></span>
-                <br>
-
-                <p>CSS2, CSS3</p>
-            </div>
-            <div class=" tooltip progress-bar blue shine" title="98%">
-                <span style="width: 98%;"></span>
-                <br>
-
-                <p>Photoshop,Illustrator</p>
-            </div>
-            <div class=" tooltip progress-bar greens shine" title="95%">
-                <span style="width: 95%;"></span>
-                <br>
-
-                <p>Кросбраузерная, Резиновая верстка</p>
-            </div>
-            <div class=" tooltip progress-bar orange shine" title="90%">
-                <span style="width: 90%;"></span>
-                <br>
-
-                <p>Java Scrypt</p>
-            </div>
-        </div>
-        <div class="two_white">
-            <div class=" tooltip progress-bar orange shine" title="90%">
-                <span style="width: 65%;"></span>
-                <br>
-
-                <p>Bootstrap</p>
-            </div>
-
-            <div class=" tooltip progress-bar greens shine" title="90%">
-                <span style="width: 20%;"></span>
-                <br>
-
-                <p>Node.js</p>
-            </div>
-            <div class=" tooltip progress-bar blue shine" title="90%">
-                <span style="width: 90%;"></span>
-                <br>
-
-                <p>PHP</p>
-            </div>
-            <div class=" tooltip progress-bar greens shine" title="70%">
-                <span style="width: 70%;"></span>
-                <br>
-
-                <p>Simfony2</p>
-            </div>
-            <div class=" tooltip progress-bar orange shine" title="100%">
-                <span style="width: 100%;"></span>
-                <br>
-
-                <p>Верстка под мобильные девайсы</p>
-            </div>
-            <div class=" tooltip progress-bar blue shine" title="80%">
-                <span style="width: 80%;"></span>
-                <br>
-
-                <p>AJAX</p>
-            </div>
-        </div>
-    </div>
-
-
+<div class="loader">
+    <div class="loader_inner"></div>
 </div>
-<div class="clear"></div>
 
-<div class="margin"></div>
-
-<div class="lamp wow bounceInRight" data-wow-offset="100">
-    <div class="content">
-
-        <div class="central"><h2>ОПЫТ</h2></div>
-
-
-        <div class="experience">
-            <p>
-                Верстка сайтов / JavaScript разработка
-                / AJAX / JQuery
-                / Node.js
-                / Bootsrap / Foundation / JSON / SVN / Git /
-                Разработка прототипов сайтов / Проектировка интерфейсов
-                / Юзабилити интерфейсов
-            </p>
-
-        </div>
-    </div>
-
-</div>
-<div class="clear"></div>
-<div class="margin-grey"></div>
-<div class="clear"></div>
-<div class="work wow RotateInDownRight">
-    <div class="content">
-        <div class="margin"></div>
-        <div class="central"><h2>Мои Работы</h2></div>
-        <div class="margin"></div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-        <div class="block">
-
-        </div>
-    </div>
-</div>
-<div class="clear"></div>
-<div class="margin"></div>
-
-<div class="contact wow bounceInRight" data-wow-offset="200">
-    <div class="content">
-        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-            <tbody>
-
-            <tr>
-                <td height="26" style="line-height: 26px"></td>
-            </tr>
-            <tr>
-                <td align="center" valign="top"
-                    style="font-family: Georgia, serif; mso-line-height-rule: exactly; line-height: 26px; font-weight: 400; color: #333333;">
-                   <h2>Контакты</h2>
-                </td>
-            </tr>
-            <tr>
-                <td height="12" style="line-height: 12px"></td>
-            </tr>
-            <tr>
-                <td align="center" valign="top"
-                    style="font-family: Georgia, serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400; color: #777777;">
-                    Адрес: Бишкек ул. Коммунаров д.112
-                </td>
-            </tr>
-            <tr>
-                <td height="8" style="line-height: 8px"></td>
-            </tr>
-
-            <tr>
-                <td align="center" valign="top">
-                    <table border="0" cellspacing="0" cellpadding="0" align="center">
-                        <tbody>
-                        <tr>
-                            <td align="left" valign="top" style="line-height: 0 !important; padding: 0 9px 0 0;"><img
-                                    src="./img/icon-phone.png" alt="icon-phone" width="13" height="22"></td>
-                            <td align="left" valign="top"
-                                style="font-family: Georgia, serif; font-size: 17px; mso-line-height-rule: exactly; line-height: 18px; font-weight: 400; font-style: italic; color: #26ac7c;">
-                               (+996)777-999-029
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-
-            <tr>
-                <td height="9" style="line-height: 9px"></td>
-            </tr>
-
-            <tr>
-                <td align="center" valign="top">
-                    <table border="0" cellspacing="0" cellpadding="0" align="center">
-                        <tbody>
-                        <tr>
-                            <td align="left" valign="top" style="line-height: 0 !important; padding: 0 9px 0 0;"><img
-                                    src="./img/icon-mail.png" alt="icon-mail" width="20" height="16"></td>
-                            <td align="left" valign="top"
-                                style="font-family: Georgia, serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 17px; font-weight: 400; color: #777777;">
-                                Email: <a href="index.html" style="color: #333333;">gordondalos@gmail.com</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-
-            <tr>
-                <td height="20" style="line-height: 20px"></td>
-            </tr>
-
-            <tr>
-                <td align="center" valign="top">
-
-                    <table border="0" cellspacing="0" cellpadding="0" align="center">
-                        <tbody>
-                        <tr>
-                            <td align="center" valign="top" style="line-height: 0 !important; padding: 0 3px;">
-                                <a href="index.html"><img src="./img/socials-1.png" alt="socials-1" width="51"
-                                                          height="51"></a>
-                            </td>
-                            <td align="center" valign="top" style="line-height: 0 !important; padding: 0 3px;">
-                                <a href="index.html"><img src="./img/socials-2.png" alt="socials-2" width="51"
-                                                          height="51"></a>
-                            </td>
-                            <td align="center" valign="top" style="line-height: 0 !important; padding: 0 3px;">
-                                <a href="index.html"><img src="./img//socials-3.png" alt="socials-3" width="51"
-                                                          height="51"></a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                </td>
-            </tr>
-
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="margin"></div>
-
-
-
-
-<footer>
-    <div class="margin"></div>
-<!--плюсо-->
-    <script type="text/javascript">(function() {
-        if (window.pluso)if (typeof window.pluso.start == "function") return;
-        if (window.ifpluso==undefined) { window.ifpluso = 1;
-            var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-            s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-            s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
-            var h=d[g]('body')[0];
-            h.appendChild(s);
-        }})();</script>
-    <div class="pluso" data-background="transparent" data-options="medium,square,line,horizontal,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div>
-    <!--плюсо-->
-
-</footer>
 
 <p id="back-top">
     <a href="#top"><span></span></a>
 </p>
 
-<script src="./js/common.js"></script>
+<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
 
-<script type="text/javascript" src="./js/wow.min.js"></script>
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="libs/waypoints/waypoints.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<!--<script src="libs/bootstrap/js/bootstrap.js"></script>-->
+<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 
-<!--WOW анимация-->
 <script>
-    var wow = new WOW(
-            {
-                boxClass:     'wow',      // animated element css class (default is wow)
-                animateClass: 'animated', // animation css class (default is animated)
-                          // distance to the element when triggering the animation (default is 0)
-                mobile:       true,       // trigger animations on mobile devices (default is true)
-                live:         true,       // act on asynchronously loaded content (default is true)
-                callback:     function(box) {
-                    // the callback is fired every time an animation is started
-                    // the argument that is passed in is the DOM node being animated
-                },
-                scrollContainer: null // optional scroll container selector, otherwise use window
-            }
-    );
-    wow.init();
+
+    //Load Libs CSS
+    var ms = document.createElement("link");
+    ms.rel = "stylesheet";
+    ms.href = "libs/animate/animate.css";
+    document.getElementsByTagName("head")[0].appendChild(ms);
+    // ms.href="libs/css/magnific-popup.css";document.getElementsByTagName("head")[0].appendChild(ms);
+
+
 </script>
-<!--WOW анимация-->
+<!--<script src="http://code.jquery.com/jquery-1.9.0.js"></script>-->
 
+<!--<script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>-->
 
-<!-- Тултипы -->
+<script>var scr = {
+    "scripts": [
+        {"src": "libs/modernizr/modernizr.js", "async": false},
+        {"src": "libs/jquery/jquery-1.11.2.min.js", "async": false},
+        {"src": "libs/waypoints/waypoints.min.js", "async": false},
+        {"src": "libs/animate/animate-css.js", "async": false},
+        {"src": "libs/plugins-scroll/plugins-scroll.js", "async": false},
+        {"src": "libs/equalHeight/jquery.equalheights.min.js", "async": false},
+        {"src": "libs/drawsvg/drawfillsvg.min.js", "async": false},
+        {"src": "libs/Magnific-Popup/jquery.magnific-popup.min.js", "async": false},
+        {"src": "libs/owl/owl.carousel.min.js", "async": false},
+        {"src": "js/jquery.tooltipster.min.js", "async": false},
+        {"src": "js/paralax.js", "async": false},
+        {"src": "js/wow.js", "async": false},
+        {"src": "js/wow.min.js", "async": false},
+        {"src": "js/common.js", "async": false},
+        // {"src": "js/jquery-1.7.0.min.js", "async": false},
+        {"src": "js/myScrypt.js", "async": false},
+        {"src": "js/matrix.js", "async": false},
+        {"src": "js/menu.js", "async": false}
+    ]
+};
+!function (t, n, r) {
+    "use strict";
+    var c = function (t) {
+        if ("[object Array]" !== Object.prototype.toString.call(t))return !1;
+        for (var r = 0; r < t.length; r++) {
+            var c = n.createElement("script"), e = t[r];
+            c.src = e.src, c.async = e.async, n.body.appendChild(c)
+        }
+        return !0
+    };
+    t.addEventListener ? t.addEventListener("load", function () {
+        c(r.scripts);
+    }, !1) : t.attachEvent ? t.attachEvent("onload", function () {
+        c(r.scripts)
+    }) : t.onload = function () {
+        c(r.scripts)
+    }
+}(window, document, scr);
+</script>
+
 <script>
-    $(document).ready(function () {
-        $('.tooltip').tooltipster();
-    });
+
 </script>
-<!-- Тултипы -->
-
-<!--Прокрутка страницы-->
-<script>
-    $(document).ready(function(){
-
-        // hide #back-top first
-        $("#back-top").hide();
-
-        // fade in #back-top
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 100) {
-                    $('#back-top').fadeIn();
-                } else {
-                    $('#back-top').fadeOut();
-                }
-            });
-
-            // scroll body to 0px on click
-            $('#back-top a').click(function () {
-                $('body,html').animate({
-                    scrollTop: 0
-                }, 5000);
-                return false;
-            });
-        });
-
-    });
-</script>
-
-<!--Скрипт привязки меню к верху при прокрутке-->
-<script>
-    $(document).ready(function(){
-
-        var $menu = $("#menu");
-
-        $(window).scroll(function(){
-            if ( $(this).scrollTop() > 90 && $menu.hasClass("default") ){
-                $menu.removeClass("default").addClass("fixed");
-            } else if($(this).scrollTop() <= 90 && $menu.hasClass("fixed")) {
-                $menu.removeClass("fixed").addClass("default");
-            }
-        });//scroll
-    });
-</script>
-<!--Скрипт привязки меню к верху при прокрутке-->
 
 </body>
 </html>

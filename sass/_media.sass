@@ -1,0 +1,242 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+
+//
+//.trans
+//	-webkit-transition: all .5s ease
+//	time-moz-transition: all .5s ease
+//	time-ms-transition: all .5s ease
+//	time-o-transition: all .5s ease
+//	timetransition: all .5s ease time
+
+
+@media only screen and (max-width : 1200px)
+	.section_4
+		padding-top: 25px
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.section_3
+		.text
+			min-height: 100px
+			h2
+				font-size: em(20px)
+
+	.section_12
+		.item
+			width: 100%
+
+
+		.item2
+			width: 100%
+			img
+				float: right
+
+	.section_13
+		.wrap
+			.item
+				width: 20%
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		//-o-transition-property: none !important
+		//-moz-transition-property: none !important
+		//-ms-transition-property: none !important
+		//-webkit-transition-property: none !important
+		//transition-property: none !important
+		///*CSS transforms*/
+		//-o-transform: none !important
+		//-moz-transform: none !important
+		//-ms-transform: none !important
+		//-webkit-transform: none !important
+		//transform: none !important
+		///*CSS animations*/
+		//-webkit-animation: none !important
+		//-moz-animation: none !important
+		//-o-animation: none !important
+		//-ms-animation: none !important
+		//animation: none !important
+
+	.fa-bars-wrap
+		visibility: visible
+	.nav-wrap
+		display: none
+	.about
+		.wrap
+			.text
+
+				h1
+					left: 50%
+
+				p
+
+					width: 70%
+					left: 50%
+	.slider
+		.owl-controls
+			.owl-nav
+				top: 5%
+
+	.section_3
+		padding-top: 20px
+
+	.section_9
+		.wrap
+			.item
+				width: 33%
+				padding: 0
+				img
+					padding: 2px
+	.section_11
+		margin: 100px 0
+		display: block
+		text-align: center
+		.container
+			padding: 0
+			margin: 0
+
+			.row
+				margin: 0
+				padding: 0
+				position: relative
+				text-align: center
+
+		.item
+			width: 65%
+			float: none
+			display: inline-block
+
+			font-size: 0.7em
+			padding: 10px 0
+			h2
+				transform: rotate(0deg)
+
+			&:last-child
+				h2
+					transform: rotate(0deg)
+
+			img
+				&.strela
+					display: none
+
+	.section_8
+		.img-wrap
+			.item
+				display: inline-table
+				width: 33%
+
+	.section_13
+		.wrap
+			.item
+				width: 25%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.fa-bars-wrap
+		text-align: left
+		margin: 20px
+		.nav-wrap-hidden
+			left: 0
+	.about
+		.wrap
+			.text
+				width: 100%
+
+	.section_5
+		.img
+			width: 100%
+			padding: 0
+	.section_6
+		.img-wrap
+			padding: 0
+			img
+				width: 100%
+
+	.section_9
+		.wrap
+			.item
+				width: 50%
+				padding: 0
+				img
+					padding: 2px
+
+	.section_8
+		.img-wrap
+			.item
+				display: inline-table
+				width: 50%
+	.section_13
+		.wrap
+			.item
+				width: 80%
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	.about
+		.wrap
+			.text
+
+				h1
+					left: 40%
+
+				p
+
+					width: 70%
+					left: 40%
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+
