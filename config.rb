@@ -7,6 +7,8 @@ css_dir = "css"
 sass_dir = "sass"
 images_dir = "imgs"
 javascripts_dir = "js"
+output_style = :compressed
+
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
