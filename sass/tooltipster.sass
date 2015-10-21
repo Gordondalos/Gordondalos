@@ -1,0 +1,289 @@
+//colors
+$gray: #808080
+$white: #fff
+
+
+//fonts
+$font_0: "Arial"
+$font_1: "sans-serif"
+
+//@extend-elements
+//original selectors
+//.tooltipster-arrow span, .tooltipster-arrow-border
+.extend_1
+	display: block
+	width: 0
+	height: 0
+	position: absolute
+
+
+//original selectors
+//.tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span
+.extend_2
+	border-left: 8px solid transparent !important
+	border-right: 8px solid transparent !important
+	border-top: 8px solid
+	bottom: -7px
+
+
+//original selectors
+//.tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border
+.extend_3
+	border-left: 9px solid transparent !important
+	border-right: 9px solid transparent !important
+	border-top: 9px solid
+	bottom: -7px
+
+
+//original selectors
+//.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span
+.extend_4
+	border-left: 8px solid transparent !important
+	border-right: 8px solid transparent !important
+	border-bottom: 8px solid
+	top: -7px
+
+
+//original selectors
+//.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border
+.extend_5
+	border-left: 9px solid transparent !important
+	border-right: 9px solid transparent !important
+	border-bottom: 9px solid
+	top: -7px
+
+
+//original selectors
+//.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border
+.extend_6
+	left: 0
+	right: 0
+	margin: 0 auto
+
+
+//original selectors
+//.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border
+.extend_7
+	border-top: 8px solid transparent !important
+	border-bottom: 8px solid transparent !important
+	border-left: 8px solid
+	top: 50%
+	margin-top: -7px
+	right: -7px
+
+
+//original selectors
+//.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border
+.extend_8
+	border-top: 8px solid transparent !important
+	border-bottom: 8px solid transparent !important
+	border-right: 8px solid
+	top: 50%
+	margin-top: -7px
+	left: -7px
+
+
+
+.tooltipster-default
+	//If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
+	border-radius: 5px
+	border: 2px solid $gray
+	background: whitesmoke
+
+	color: $gray
+	.tooltipster-content
+		font-family: $font_0, $font_1
+		font-size: 14px
+		line-height: 16px
+		padding: 8px 10px
+		overflow: hidden
+
+
+
+
+.tooltipster-icon
+	cursor: help
+	margin-left: 4px
+
+.tooltipster-base
+	padding: 0
+	font-size: 0
+	line-height: 0
+	position: absolute
+	left: 0
+	top: 0
+	z-index: 9999999
+	pointer-events: none
+	width: auto
+	overflow: visible
+	.tooltipster-content
+		overflow: hidden
+
+
+.tooltipster-arrow
+	display: block
+	text-align: center
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+	left: 0
+	z-index: -1
+	span
+		@extend .extend_1
+
+
+.tooltipster-arrow-border
+	@extend .extend_1
+
+.tooltipster-arrow-top
+	span
+		@extend .extend_2
+		@extend .extend_6
+
+	.tooltipster-arrow-border
+		@extend .extend_3
+		@extend .extend_6
+
+
+.tooltipster-arrow-top-right
+	span
+		@extend .extend_2
+		right: 6px
+
+	.tooltipster-arrow-border
+		@extend .extend_3
+		right: 5px
+
+
+.tooltipster-arrow-top-left
+	span
+		@extend .extend_2
+		left: 6px
+
+	.tooltipster-arrow-border
+		@extend .extend_3
+		left: 5px
+
+
+.tooltipster-arrow-bottom
+	span
+		@extend .extend_4
+		@extend .extend_6
+
+	.tooltipster-arrow-border
+		@extend .extend_5
+		@extend .extend_6
+
+
+.tooltipster-arrow-bottom-right
+	span
+		@extend .extend_4
+		right: 6px
+
+	.tooltipster-arrow-border
+		@extend .extend_5
+		right: 5px
+
+
+.tooltipster-arrow-bottom-left
+	span
+		@extend .extend_4
+		left: 6px
+
+	.tooltipster-arrow-border
+		@extend .extend_5
+		left: 5px
+
+
+.tooltipster-arrow-left
+	span
+		@extend .extend_7
+
+	.tooltipster-arrow-border
+		@extend .extend_7
+		border-top: 9px solid transparent !important
+		border-bottom: 9px solid transparent !important
+		border-left: 9px solid
+		margin-top: -8px
+
+
+.tooltipster-arrow-right
+	span
+		@extend .extend_8
+
+	.tooltipster-arrow-border
+		@extend .extend_8
+		border-top: 9px solid transparent !important
+		border-bottom: 9px solid transparent !important
+		border-right: 9px solid
+		margin-top: -8px
+
+
+.tooltipster-fade
+	opacity: 0
+	//If you use compass, instead of the line below you could use + transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+	transition-property: opacity
+
+.tooltipster-fade-show
+	opacity: 1
+
+.tooltipster-grow
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: scale(0,0)
+	//If you use compass, instead of the line below you could use + transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+	transition-property: transform
+
+.tooltipster-grow-show
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: scale(1,1)
+	//If you use compass, instead of the line below you could use + transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15)
+
+.tooltipster-swing
+	opacity: 0
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotateZ(4deg)
+	//If you use compass, instead of the line below you could use + transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+	transition-property: transform
+
+.tooltipster-swing-show
+	opacity: 1
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotateZ(0deg)
+	//If you use compass, instead of the line below you could use + transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
+	transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4)
+
+.tooltipster-fall
+	top: 0
+	//If you use compass, instead of the line below you could use + transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+	transition-property: top
+	//If you use compass, instead of the line below you could use + transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15)
+	&.tooltipster-dying
+		//If you use compass, instead of the line below you could use + transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+		transition-property: all
+		top: 0 !important
+		opacity: 0
+
+
+
+
+.tooltipster-slide
+	left: -40px
+	//If you use compass, instead of the line below you could use + transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+	transition-property: left
+	//If you use compass, instead of the line below you could use + transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15)
+
+	&.tooltipster-dying
+		//If you use compass, instead of the line below you could use + transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+		transition-property: all
+		left: 0 !important
+		opacity: 0
+
+
+.tooltipster-content-changing
+	opacity: 0.5
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: scale(1.1, 1.1)
