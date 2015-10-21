@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/css/menu.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/myScrypt.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sass/animate.sass" charset="UTF-8" />
   </component>
 </project>
