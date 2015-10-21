@@ -102,6 +102,23 @@ $(document).ready(function() {
 			$menu.removeClass("fixed").addClass("default");
 		}
 	});//scroll
+
+
+
+	var $menus = $("#menus");
+	$(window).scroll(function(){
+		if ( $(this).scrollTop() > 90 && $menus.hasClass("default") ){
+			$menus.removeClass("default").addClass("fixed");
+		} else if($(this).scrollTop() <= 90 && $menus.hasClass("fixed")) {
+			$menus.removeClass("fixed").addClass("default");
+		}
+	});//scroll
+
+
+
+
+
+
 //<!--Скрипт привязки меню к верху при прокрутке-->
 
 	var wow = new WOW(
