@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="726a411e-07a6-4a20-a026-b907581e868e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_animation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_appearance.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/7c80c5400603d8ee36762046673212e181bc9154/_asset-pipeline.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_assign-inputs.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_backface-visibility.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_background-image.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_background.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_border-color.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_border-image.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_border-radius.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_border-style.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_border-width.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4ac4b715509e2441f60b1a7810bbf228e577a408/_bourbon-deprecated-upcoming.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4ac4b715509e2441f60b1a7810bbf228e577a408/_bourbon.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/xampp/htdocs/mylp/bourbon/_bourbon.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_buttons.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_calc.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_clearfix.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_columns.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_contains-falsy.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_contains.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_convert-units.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_directional-values.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_ellipsis.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_filter.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_flex-box.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_font-face.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_font-feature-settings.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_font-source-declaration.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_font-stacks.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_gradient-positions-parser.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_hide-text.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_hidpi-media-query.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_hyphens.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_image-rendering.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_is-length.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_is-light.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_is-number.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_is-size.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_keyframes.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_linear-angle-parser.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_linear-gradient-parser.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_linear-gradient.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_linear-positions-parser.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_linear-side-corner-parser.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_margin.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/_media.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_modular-scale.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_padding.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_perspective.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_placeholder.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_position.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/7c80c5400603d8ee36762046673212e181bc9154/_prefixer.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_prefixer.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/7c80c5400603d8ee36762046673212e181bc9154/_px-to-em.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_px-to-em.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_px-to-rem.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_radial-arg-parser.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_radial-gradient-parser.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_radial-gradient.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_radial-positions-parser.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_render-gradients.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_retina-image.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_selection.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_shade.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_shape-size-stripper.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_size.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4fc94d3d9081a2348c0f4bca5a047325c377c2e8/_str-to-num.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_strip-units.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_text-decoration.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_text-inputs.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_timing-functions.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_tint.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_transform.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_transition-property-name.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_transition.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_triangle.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/b04334e4817b041f13025da4ccd6f6c7189d331c/_unpack.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/045bf8ff9e9ca3180eaebd570f6ad602137c93d0/_user-select.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dcde32589ae4a426679c6935468b4c0ba85ba1e1/_word-wrap.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/animate.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/buttons.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/font-awesome.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/font-awesomw.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/fonts.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/header.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/967d492c3bdf019e2abe4f1c0e31a56380aa8cde/magnific-popup.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/main.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/menu.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/26351f846becc17bc7523e9fdeaac4c4176c2ed9/owl.carousel.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/a689a55c63955a289703f188c9a6d2961a9188cd/tooltipster.sassc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mypage.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="mylp.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="mylp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19562575">
+              <caret line="424" column="23" selection-start-line="424" selection-start-column="23" selection-end-line="428" selection-end-column="34" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#13;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#26;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#27;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#28;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#29;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1446094117504" expanded="true" signature="14187:14395" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/main.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="264" column="30" selection-start-line="264" selection-start-column="30" selection-end-line="264" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_media.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_media.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="452" column="22" selection-start-line="452" selection-start-column="22" selection-end-line="452" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/header.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myScrypt.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/myScrypt.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/menu.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="gordondalos &lt;bondarenko.kg@mail.ru&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/paralax.js" />
+        <option value="$PROJECT_DIR$/js/jquery.tooltipster.min.js" />
+        <option value="$PROJECT_DIR$/css/tooltipster.css" />
+        <option value="$PROJECT_DIR$/js/jquery-1.7.0.min.js" />
+        <option value="$PROJECT_DIR$/js/wow.min.js" />
+        <option value="$PROJECT_DIR$/js/wow.js" />
+        <option value="$PROJECT_DIR$/css/menu.css" />
+        <option value="$PROJECT_DIR$/js/myScrypt.js" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/config.rb" />
+        <option value="$PROJECT_DIR$/sass/animate.sass" />
+        <option value="$PROJECT_DIR$/css/animate.css" />
+        <option value="$PROJECT_DIR$/css/buttons.css" />
+        <option value="$PROJECT_DIR$/sass/buttons.sass" />
+        <option value="$PROJECT_DIR$/sass/font-awesomw.sass" />
+        <option value="$PROJECT_DIR$/sass/font-awesome.sass" />
+        <option value="$PROJECT_DIR$/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/css/tooltipster1.css" />
+        <option value="$PROJECT_DIR$/sass/tooltipster.sass" />
+        <option value="$PROJECT_DIR$/min.css/main.css" />
+        <option value="$PROJECT_DIR$/sass/fonts.sass" />
+        <option value="$PROJECT_DIR$/js/menu.js" />
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/sass/menu.sass" />
+        <option value="$PROJECT_DIR$/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/sass/header.sass" />
+        <option value="$PROJECT_DIR$/sass/main.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AnnotationPHP</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Composer.json</id>
+          </State>
+          <State>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>Control flow issuesCoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>HAML</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Ignore</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Less</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>ServiceSymfony</id>
+          </State>
+          <State>
+            <id>Symfony</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="111" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="815" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="133" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="133" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="808" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="SearchEverywhereHistoryKey" value="css/styles.css&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mylp\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mylp\libs\ears\Solar-System\css" />
+      <recent name="C:\xampp\htdocs\mylp\sass" />
+    </key>
+  </component>
+  <component name="RemoteSynchronizer">
+    <option name="targetMappings">
+      <list>
+        <TargetMappings>
+          <option name="name" value="Default" />
+        </TargetMappings>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="726a411e-07a6-4a20-a026-b907581e868e" name="Default" comment="" />
+      <created>1445169111966</created>
+      <option name="number" value="Default" />
+      <updated>1445169111966</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Доделал анимацию">
+      <created>1445269365634</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1445269365634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28756058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.50647247" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4663626" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32839224" sideWeight="0.4935275" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Доделал анимацию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доделал анимацию" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sass/menu.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/menu.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="389" column="12" selection-start-line="389" selection-start-column="10" selection-end-line="389" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="388" column="0" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="384" column="34" selection-start-line="384" selection-start-column="34" selection-end-line="384" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#26;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#27;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#28;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#29;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1446094117504" expanded="true" signature="14187:14395" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="384" column="34" selection-start-line="384" selection-start-column="34" selection-end-line="384" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#26;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#27;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#28;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#29;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1446094117504" expanded="true" signature="14187:14395" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/Magnific-Popup/magnific-popup.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/owl/assets/owl.carousel.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bourbon/helpers/_render-gradients.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bourbon/_bourbon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7819149">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/skil/php-elephant.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/skil/node.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/paralax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4949495">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ears/Solar-System/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6755319">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.tooltipster.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="17523" selection-start-line="0" selection-start-column="17523" selection-end-line="0" selection-end-column="17523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.7.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28793" selection-start-line="3" selection-start-column="28793" selection-end-line="3" selection-end-column="28793" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/skil/bit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/wow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.05">
+          <caret line="513" column="0" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0375">
+          <caret line="1" column="8397" selection-start-line="1" selection-start-column="8397" selection-end-line="1" selection-end-column="8397" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07486631">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/animate.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2371" column="0" selection-start-line="2371" selection-start-column="0" selection-end-line="2371" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/buttons.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3559322">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3850267">
+          <caret line="2026" column="0" selection-start-line="2026" selection-start-column="0" selection-end-line="2026" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tooltipster.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037433155">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/tooltipster.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07909604">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9251337">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/job/home.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min.css/tooltipster.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min.css/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ears/Solar-System/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/ears/Solar-System/css/styles1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29946524">
+          <caret line="0" column="589" selection-start-line="0" selection-start-column="589" selection-end-line="0" selection-end-column="589" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044397462">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/myScrypt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037433155">
+          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/menu.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="452" column="22" selection-start-line="452" selection-start-column="22" selection-end-line="452" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="264" column="30" selection-start-line="264" selection-start-column="30" selection-end-line="264" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19562575">
+          <caret line="424" column="23" selection-start-line="424" selection-start-column="23" selection-end-line="428" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#26;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#27;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#28;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#29;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1446094117504" expanded="true" signature="14187:14395" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
