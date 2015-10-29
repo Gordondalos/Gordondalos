@@ -1,0 +1,492 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+
+//
+//.trans
+//	-webkit-transition: all .5s ease
+//	time-moz-transition: all .5s ease
+//	time-ms-transition: all .5s ease
+//	time-o-transition: all .5s ease
+//	timetransition: all .5s ease time
+
+
+@media only screen and (max-width : 1200px)
+	.section_4
+		padding-top: 25px
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.fa-bars-wrap
+		text-align: left
+		left: 0
+		.nav-wrap-hidden
+			left: 0
+
+
+
+	.section_3
+		.text
+			min-height: 100px
+			h2
+				font-size: em(20px)
+
+	.section_12
+		.item
+			width: 100%
+
+
+		.item2
+			width: 100%
+			img
+				float: right
+
+	.section_13
+		.wrap
+			.item
+				width: 20%
+
+	.all
+		display: none
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+	/*Disable Animation on Mobile Devices*/
+	//.animated
+		/*CSS transitions*/
+		//-o-transition-property: none !important
+		//-moz-transition-property: none !important
+		//-ms-transition-property: none !important
+		//-webkit-transition-property: none !important
+		//transition-property: none !important
+		///*CSS transforms*/
+		//-o-transform: none !important
+		//-moz-transform: none !important
+		//-ms-transform: none !important
+		//-webkit-transform: none !important
+		//transform: none !important
+		///*CSS animations*/
+		//-webkit-animation: none !important
+		//-moz-animation: none !important
+		//-o-animation: none !important
+		//-ms-animation: none !important
+		//animation: none !important
+	.section_1
+		.fa-bars-wrap
+			visibility: visible
+		.nav-wrap
+			display: none
+		.about
+			.wrap
+				.text
+					width: 100%
+					p
+						width: 70%
+
+	.slider
+		.owl-controls
+			.owl-nav
+				top: 5%
+
+	.section_3
+		padding-top: 20px
+
+	.section_9
+		.wrap
+			.item
+				width: 33%
+				padding: 0
+				img
+					padding: 2px
+	.section_11
+		margin: 100px 0
+		display: block
+		text-align: center
+		.container
+			padding: 0
+			margin: 0
+
+			.row
+				margin: 0
+				padding: 0
+				position: relative
+				text-align: center
+
+		.item
+			width: 65%
+			float: none
+			display: inline-block
+
+			font-size: 0.7em
+			padding: 10px 0
+			h2
+				transform: rotate(0deg)
+
+			&:last-child
+				h2
+					transform: rotate(0deg)
+
+			img
+				&.strela
+					display: none
+
+	.section_8
+		.img-wrap
+			.item
+				display: inline-table
+				width: 33%
+
+	.section_13
+		.wrap
+			.item
+				width: 25%
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.fa-bars-wrap
+		text-align: left
+		margin: 20px
+		.nav-wrap-hidden
+			left: 0
+	.about
+		.wrap
+			.text
+				width: 100%
+
+	.section_5
+		.img
+			width: 100%
+			padding: 0
+	.section_6
+		.img-wrap
+			padding: 0
+			img
+				width: 100%
+
+	.section_9
+		.wrap
+			.item
+				width: 50%
+				padding: 0
+				img
+					padding: 2px
+
+	.section_8
+		.img-wrap
+			.item
+				display: inline-table
+				width: 50%
+	.section_13
+		.wrap
+			.item
+				width: 80%
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	section
+		width: 320px
+	.section_1
+		box-sizing: border-box
+		.container-fluid
+			padding: 0
+			width: 320px
+
+
+		.row
+			width: 320px
+			.container
+				width: 320px !important
+
+
+			.about
+				.wrap
+					padding: 0
+					.text
+						padding: 20px
+						text-align: center
+
+						p
+							position: relative
+							padding: 20px
+							width: 100%
+							margin-left: -10px
+						h2
+							position: relative
+							padding: 20px
+							width: 100%
+							margin-left: -10px
+
+
+
+	.section_2
+		width: 320px
+		.container
+			padding: 0
+			.slider
+				margin-left: -10px
+			.row
+				padding: 0
+				width: 100%
+				h2
+					font-size: 20px
+					padding: 20px
+					width: 100%
+					margin-left: -10px
+				p
+					padding: 20px
+					font-family: $helvetica
+	.section_3
+		margin: 20px 0
+		.text
+			.wrap-text
+				width: 80%
+				background: none
+
+	.section_5
+		width: 320px
+		.container
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				h2
+					font-size: 20px
+					padding: 20px
+					width: 100%
+					margin-left: -10px
+				p
+					padding: 20px
+					font-family: $helvetica
+
+	.section_6
+		width: 320px
+		.container
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				h2
+					font-size: 20px
+					padding: 20px
+					width: 100%
+					margin-left: -10px
+				p
+					padding: 20px
+					font-family: $helvetica
+
+	.section_7
+		width: 320px
+		.container-fluide
+
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				.text_wrap
+					padding: 0
+					margin: 0
+					h2
+						font-size: 20px
+						padding: 40px
+						width: 100%
+						margin-left: -10px
+					p
+						padding: 20px
+						font-family: $helvetica
+
+	.section_8
+		width: 320px
+		padding: 50px 0
+		transform: none
+		.container
+
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				.text_wrap
+					padding: 0
+					width: 100%
+					margin: 0
+					h2
+						font-size: 20px
+						padding: 40px
+
+						width: 100%
+						margin-left: -10px
+					p
+						padding: 20px
+						font-family: $helvetica
+				.img-wrap
+					text-align: center
+					.item
+						width: 100%
+						padding: 0 40px 0 20px
+
+	.section_9
+		width: 320px
+		padding: 50px 0
+		transform: none
+		.container
+
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				.text_wrap
+					padding: 0
+					width: 100%
+					margin: 0
+					h2
+						font-size: 20px
+						padding: 40px
+
+						width: 100%
+						margin-left: -10px
+					p
+						padding: 20px
+						font-family: $helvetica
+				.wrap
+					text-align: center
+					.item
+						width: 80%
+
+						padding: 0 40px 0 20px
+
+	.section_10
+		width: 320px
+		padding: 50px 0
+		transform: none
+		.container
+
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				.text_wrap
+					padding: 0
+					width: 100%
+					margin: 0
+					h2
+						font-size: 20px
+						padding: 40px
+
+	.section_11
+		width: 320px
+		padding: 50px 0
+		transform: none
+		.container
+
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				.item
+					padding: 0
+					width: 100%
+					margin: 0
+					h2
+						font-size: 20px
+						padding: 0 60px 0 20px
+
+	.section_13
+		width: 320px
+		padding: 50px 0
+		transform: none
+		.container
+
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				.text_wrap
+					padding: 0
+					width: 100%
+					margin: 0
+					h2
+						font-size: 20px
+						padding: 0 40px 0 20px
+				.wrap
+					text-align: center
+					.description
+						padding: 40px
+						li
+							text-align: left
+
+
+				.item
+					padding: 20px
+					text-align: center
+
+					width: 60%
+					margin: 0
+
+	.section_12
+		transform: none
+		width: 320px
+		padding: 50px 0
+		.container
+
+			padding: 0
+			.row
+				padding: 0
+				width: 100%
+				.text_wrap
+					padding: 0
+					width: 100%
+					margin: 0
+					h2
+						font-size: 20px
+						padding: 0 40px 0 20px
+				.item
+					h3
+						font-size: 16px
+						padding: 0 40px 0 20px
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+

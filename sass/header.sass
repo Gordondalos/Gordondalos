@@ -1,0 +1,203 @@
+@import "../bourbon/bourbon"
+
+@import "fonts"
+
+
+$main-color: #fff
+$ser: #DDD
+$cfb: #333333
+
+body
+	font-size: 15px
+	min-width: 320px
+	position: relative
+	line-height: em(22px)
+	font-family: "SegoePrintRegular", $helvetica
+	overflow-x: hidden
+	color: #333333
+	margin: 0
+	padding: 0
+	//background-color: #3c3c3c
+	background-color: black
+
+
+
+.before
+	content: ''
+	width: 100%
+	height: 100%
+	position: absolute
+	left: 0
+	right: 0
+
+.hidden
+	display: none
+
+
+a
+	text-decoration: none
+	&:hover, a:active, a:focus
+		text-decoration: underline
+
+
+
+.headers
+	font-family: "SegoePrintRegular", $helvetica
+	text-transform: none
+	font-weight: normal
+	color: $main-color
+	text-align: center
+	line-height: 1.3em
+
+
+
+
+h1, h2, h3, h4, h5, h6
+	@extend .headers
+
+h1
+	font-size: em(38px)
+
+h2
+	font-size: em(30px)
+
+h3
+	font-size: em(24px)
+
+b, strong
+	font-family: "SegoePrintRegular", $helvetica
+
+.section_1
+	background-image: url("../img/map.png")
+	min-height: 500px
+	background-size: cover
+	background-color: #000000
+
+//навигаци€ в хедере
+.nav-wrap
+	text-align: right
+	li
+		display: inline-block
+		list-style-type: none
+		padding: 10px
+		a
+			color: $main-color
+
+
+//Ќавигационна€ иконка и меню
+.fa-bars-wrap
+	display: block
+	visibility: hidden
+	text-align: right
+	margin: 40px 50px 0
+	position: fixed
+	z-index: 20
+
+	a
+		display: block
+
+
+
+	.nav-wrap-hidden
+
+		display: none
+		position: absolute
+		//right: 0
+		box-shadow: 0 0 10px rgba(0,0,0,1)
+		border-bottom: 3px solid #999999
+		width: 200px
+		z-index: 20
+
+		nav
+			width: 200px
+		ul
+			margin: 0
+			padding: 0
+
+
+
+			li
+				@extend .nav-wrap
+				display: block
+				background-color: $ser
+				width: 200px
+				padding: 7px
+				text-align: center
+				opacity: 0.8
+
+				&:hover
+					background-color: #fff
+					transition: all 1s ease
+					opacity: 1
+					transform: scale(1.01)
+
+				a
+					color: $cfb
+					display: block
+					&:hover
+						transform: scale(1.01)
+						text-decoration: none
+	.on
+
+		display: block
+
+
+
+
+
+	.fa-bars
+		color: #ddd
+		cursor: pointer
+		font-size: em(28px)
+		&:hover
+			transition: all .5s ease
+			color: $cfb
+
+// онец навигационной иконки и меню
+
+// первый лид
+.about
+	color: $cfb
+	margin: 0 0 -100px
+
+	.wrap
+		background-color: #fff
+		background-image: url("../img/map.png")
+		background-size: cover
+		//width: 600px
+		height: 350px
+		margin-top: 200px
+
+		position: relative
+		
+		.text
+			width: 50%
+			position: absolute
+			right: 0
+			background-color: #fff
+			opacity: 0.8
+			display: block
+			text-align: center
+			vertical-align: middle
+			height: 100%
+
+
+			h1
+				color: $cfb
+				position: absolute
+				display: block
+				width: 100%
+				left: 50%
+				top: 30%
+				transform: translate(-50%,-50%)
+			p
+				color: $cfb
+				position: absolute
+				display: block
+				width: 70%
+				left: 50%
+				top: 55%
+				transform: translate(-50%,-50%)
+
+
+// конец первого лида

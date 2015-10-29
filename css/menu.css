@@ -1,0 +1,1 @@
+#menus.fixed{position:fixed;width:100%;top:0;left:0;padding-right:60px;opacity:0.7;z-index:10000;background-color:#000;text-align:left;margin:20px;background:none}#menus.fixed:hover{opacity:1}#menu.fixed{position:fixed;margin:auto;width:100%;top:0;right:0;padding-right:60px;opacity:0.7;z-index:10000;background-color:#000}#menu.fixed:hover{opacity:1}
