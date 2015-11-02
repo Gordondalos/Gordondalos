@@ -34,8 +34,6 @@ body input:required:valid,
 body textarea:required:valid
 	color: #666
 
-
-
 //какой то код сюда
 
 
@@ -221,10 +219,9 @@ body textarea:required:valid
 		h2
 			color: $cfb
 	.img-wrap
-		font-size: 0px
+		font-size: 0
 		vertical-align: top
 		display: table-row
-
 
 		.item
 			display: inline-table
@@ -277,16 +274,12 @@ body textarea:required:valid
 				background-color: #fff
 
 
-
 .clearfix:after
 	width: 100%
 	content: ''
 	display: table
 	height: 10px
 	background: red
-
-
-
 
 
 .section_10
@@ -302,11 +295,10 @@ body textarea:required:valid
 
 	.item
 		width: 50%
-		margin: 0 auto
 		display: block
 		float: left
 		padding: 5px
-		margin-bottom: 20px
+		margin: 0 auto 20px
 		&:last-child
 			h2
 				transform: rotate(8deg)
@@ -326,6 +318,7 @@ body textarea:required:valid
 				transform: rotate(-30deg)
 				margin-left: 70%
 				margin-top: -15%
+
 
 
 .section_12
@@ -375,21 +368,17 @@ body textarea:required:valid
 		li
 			font-size: 14px
 
-
-
 .all
 	width: 70%
 	height: 100%
 	position: absolute
 	margin: auto
-	background-color: #3F3F3F
-	background-image: url(../img/map.jpg)
-	background-repeat: repeat-y
+	background: #3F3F3F url(../img/map.jpg) repeat-y
 	opacity: 0.3
 	left: 50%
 	transform: translate(-50%,-50%)
 	z-index: -1
-	box-shadow: 0px 0px 10px black
+	box-shadow: 0 0 10px black
 
 
 //ALWAYS END
